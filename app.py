@@ -5,6 +5,10 @@ from dash.dependencies import Input, Output
 import numpy as np
 import pandas as pd
 import plotly.graph_objs as go
+import pathlib
+
+PATH = pathlib.Path(__file__)
+DATA_PATH = PATH.joinpath("../data").resolve()
 
 #setup
 colors = {
@@ -13,12 +17,12 @@ colors = {
     'text':'#D6D6D6',
     'title':'#FFFFFF'
     }
-df_main = pd.read_csv(f'data/batting/test/rollingAve/master.csv')
+df_main = pd.read_csv(DATA_PATH.joinpath("rollingMaster.csv"))
 df_dis = df_main[df_main.DisType != 'not out']
-df_KM = pd.read_csv(f'data/batting/test/KMF/master.csv')
-df_KM_OVR = pd.read_csv(f'data/batting/test/KMF/overall.csv')
-df_haz = pd.read_csv(f'data/batting/test/kde/master.csv') 
-df_haz_OVR = pd.read_csv(f'data/batting/test/kde/overall.csv')
+df_KM = pd.read_csv(DATA_PATH.joinpath("kmMaster.csv"))
+df_KM_OVR = pd.read_csv(DATA_PATH.joinpath("kmOverall.csv"))
+df_haz = pd.read_csv(DATA_PATH.joinpath("hazMaster.csv")) 
+df_haz_OVR = pd.read_csv(DATA_PATH.joinpath("hazOverall.csv"))
 available_players = df_main['Name'].unique()
 rolling_periods = [10, 20, 30, 40, 50, 70, 100]
 dates = [1896,1910,1920,1930,1939,1950,1960,1970,1980,1990,2000,2010,2019]
