@@ -1,5 +1,3 @@
-import os
-
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -769,4 +767,4 @@ def update_hazard_line_graph(first_player, second_player, bandwidth):
     }
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
