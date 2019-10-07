@@ -7,10 +7,6 @@ import pandas as pd
 import plotly.graph_objs as go
 
 #setup
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-server = app.server
-
 colors = {
     'background':'#1D313F',
     'paper': '#192A35',
@@ -23,7 +19,6 @@ df_KM = pd.read_csv(f'data/batting/test/KMF/master.csv')
 df_KM_OVR = pd.read_csv(f'data/batting/test/KMF/overall.csv')
 df_haz = pd.read_csv(f'data/batting/test/kde/master.csv') 
 df_haz_OVR = pd.read_csv(f'data/batting/test/kde/overall.csv')
-
 available_players = df_main['Name'].unique()
 rolling_periods = [10, 20, 30, 40, 50, 70, 100]
 dates = [1896,1910,1920,1930,1939,1950,1960,1970,1980,1990,2000,2010,2019]
@@ -31,6 +26,13 @@ bar_colors = ['#006DDB', '#D16C00', '#E076D5', '#EE442F', '#63ACBE', '#F9F4EC']
 line_colors = ['#006DDB', '#D16C00','#00CBFF', '#FFE605', '#E076D5', '#8C4A85']  
 teams =['India', 'England', 'Australia', 'South Africa', 'Pakistan', 
         'New Zealand', 'Sri Lanka', 'West Indies', 'Bangladesh', 'Zimbabwe']
+tabtitle='Cricket Dashboard'
+
+#initiate
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
+app.title=tabtitle
 
 #app
 left_column=[
