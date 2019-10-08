@@ -439,7 +439,7 @@ def update_KM_line_graph(first_player, second_player, length):
                     type = "buttons",
                     direction = "down",                    
                     x=1,
-                    y=1.14
+                    y=1.1
                 )
             ]
         )
