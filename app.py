@@ -346,40 +346,34 @@ def update_KM_line_graph(first_player, second_player, length):
                 x=x1rev+x1,
                 y=lower1+upper1,
                 line={
-                    'color':'rgba(0,203,255,0.5)',
+                    'color':line_colors[0],
                     'shape': 'hv',
                     'dash': 'solid'
                 },
-                name='{first_player} CI',
-                hoverinfo='none',
-                visible=False,
-                showlegend=False
+                name=f'{first_player} CB',
+                visible=False
             ),
             go.Scatter(
                 x=x2rev+x2,
                 y=lower2+upper2,
                 line={
-                    'color':'rgba(255,230,5,0.5)',
+                    'color':line_colors[1],
                     'shape': 'hv',
                     'dash': 'solid'
                 },
-                name='{second_player} CI',
-                hoverinfo='none',
-                visible=False,
-                showlegend=False
+                name=f'{second_player} CB',
+                visible=False
             ),
             go.Scatter(
                 x=x3rev+x3,
                 y=lower3+upper3,
                 line={
-                    'color':'rgba(224,118,213,0.5)',
+                    'color':line_colors[4],
                     'shape': 'hv',
                     'dash': 'solid'
                 },
-                name='Top 200 Combined CI',
-                hoverinfo='none',
-                visible=False,
-                showlegend=False
+                name='Top 200 Combined CB',
+                visible=False
             )
         ],
         'layout': go.Layout(
@@ -433,19 +427,19 @@ def update_KM_line_graph(first_player, second_player, length):
                     buttons=list([
                         dict(
                             args=[{"visible":[True]*3+[False]*3}],
-                            label="Hide CI",
+                            label="Point Estimates",
                             method="restyle"
                         ),
                         dict(
-                            args=[{"visible": [True]*6}],
-                            label="Show CI",
+                            args=[{"visible": [False]*3+[True]*3}],
+                            label="95% Confidence Bands",
                             method="restyle"
                         )                        
                     ]),
                     type = "buttons",
-                    direction = "right",                    
+                    direction = "down",                    
                     x=1,
-                    y=1.12
+                    y=1.14
                 )
             ]
         )
