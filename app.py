@@ -82,7 +82,7 @@ left_column=[
             'height':'400px',
             'position': 'relative',
             'top': '12px',
-            'padding-bottom': '10px',
+            'padding-bottom': '20px',
             'backgroundColor':colors['paper']
         }
     ),
