@@ -45,6 +45,9 @@ left_column=[
         style={
             'height':'500px',
             'backgroundColor':colors['paper']                              
+        },
+        config={
+            'displayModeBar': False
         }
     ),
     html.Div([                                   
@@ -93,9 +96,6 @@ left_column=[
         id='opposition-bar-graph',
         style={
             'height':'390px',
-# =============================================================================
-#             'padding-bottom': '10px',
-# =============================================================================
             'backgroundColor':colors['paper']
         },
         config={
@@ -141,6 +141,9 @@ right_column=[
             'height':'650px',
             'padding-bottom': '20px',
             'backgroundColor':colors['paper'] 
+        },
+        config={
+            'displayModeBar': False
         }
     ),
     dcc.Graph(
@@ -151,6 +154,9 @@ right_column=[
             'backgroundColor':colors['paper'],
             'position': 'relative',
             'top': '12px'
+        },
+        config={
+            'displayModeBar': False
         }
     ),
     html.Div([                                   
@@ -165,7 +171,7 @@ right_column=[
                     {'label': 'Medium', 'value': 'hazard2'},
                     {'label': 'High', 'value': 'hazard3'}
                 ],
-                value='hazard2'
+                value='hazard3'
             ),
             ],
             style={
@@ -355,7 +361,7 @@ def update_KM_line_graph(first_player, second_player, length):
                     'shape': 'hv',
                     'dash': 'solid'
                 },
-                name=f'{first_player} CB',
+                name=f'{first_player}',
                 visible=False
             ),
             go.Scatter(
@@ -366,7 +372,7 @@ def update_KM_line_graph(first_player, second_player, length):
                     'shape': 'hv',
                     'dash': 'solid'
                 },
-                name=f'{second_player} CB',
+                name=f'{second_player}',
                 visible=False
             ),
             go.Scatter(
@@ -377,7 +383,7 @@ def update_KM_line_graph(first_player, second_player, length):
                     'shape': 'hv',
                     'dash': 'solid'
                 },
-                name='Top 200 CB',
+                name='Top 200',
                 visible=False
             )
         ],
@@ -514,7 +520,8 @@ def update_rolling_line_graph(first_player, second_player, length):
                 'linecolor':colors['text'],
                 'showgrid':True,
                 'gridwidth':1,
-                'gridcolor':colors['text']
+                'gridcolor':colors['text'],
+                'hoverformat':'.2f'
             },
             legend={
                 'orientation':'h', 
