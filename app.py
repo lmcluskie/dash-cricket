@@ -93,7 +93,9 @@ left_column=[
         id='opposition-bar-graph',
         style={
             'height':'390px',
-            'padding-bottom': '30px',
+# =============================================================================
+#             'padding-bottom': '10px',
+# =============================================================================
             'backgroundColor':colors['paper']
         },
         config={
@@ -144,7 +146,7 @@ right_column=[
     dcc.Graph(
         id='hazard-line-graph',
         style={
-            'height':'450px',
+            'height':'410px',
             'padding-bottom': '20px',
             'backgroundColor':colors['paper'],
             'position': 'relative',
@@ -417,7 +419,7 @@ def update_KM_line_graph(first_player, second_player, length):
             },
             margin=go.layout.Margin(
                 l=60,
-                r=20,
+                r=30,
                 b=40,
                 t=80,
                 pad=3
@@ -523,8 +525,8 @@ def update_rolling_line_graph(first_player, second_player, length):
                 'color':colors['text']
             },
             margin=go.layout.Margin(
-                l=60,
-                r=20,
+                l=50,
+                r=30,
                 b=40,
                 t=80,
                 pad=3
@@ -665,9 +667,9 @@ def update_opposition_bar_graph(first_player, second_player, dates):
                 'x':0
             },         
             margin=go.layout.Margin(
-                l=60,
-                r=20,
-                b=40,
+                l=50,
+                r=30,
+                b=60,
                 t=60,
                 pad=3
             ),
@@ -754,7 +756,7 @@ def update_hazard_line_graph(first_player, second_player, bandwidth):
             },
             margin=go.layout.Margin(
                 l=60,
-                r=20,
+                r=30,
                 b=40,
                 t=80,
                 pad=3
