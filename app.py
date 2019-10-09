@@ -77,21 +77,27 @@ left_column=[
         }
     ),
     dcc.Graph(
-        id='opposition-bar-graph',
+        id='dismissal-bar-graph',
         style={
-            'height':'400px',
+            'height':'250px',
             'position': 'relative',
             'top': '12px',
-            'padding-bottom': '20px',
+            'padding-bottom': '12px',
             'backgroundColor':colors['paper']
+        },
+        config={
+            'displayModeBar': False
         }
     ),
     dcc.Graph(
-        id='dismissal-bar-graph',
+        id='opposition-bar-graph',
         style={
-            'height':'230px',
-            'padding-bottom': '10px',
+            'height':'390px',
+            'padding-bottom': '20px',
             'backgroundColor':colors['paper']
+        },
+        config={
+            'displayModeBar': False
         }
     ),
     html.Div([
@@ -138,7 +144,7 @@ right_column=[
     dcc.Graph(
         id='hazard-line-graph',
         style={
-            'height':'435px',
+            'height':'450px',
             'padding-bottom': '20px',
             'backgroundColor':colors['paper'],
             'position': 'relative',
@@ -196,7 +202,7 @@ right_column=[
             'position': 'relative',
             'top': '12px',
             'backgroundColor':colors['paper'],
-            'padding-top': '10px',
+            'padding-top': '12px',
             'padding-bottom': '10px'
         }
     )    
@@ -589,10 +595,10 @@ def update_dismissal_bar_graph(first_player, second_player, dates):
             },   
             barmode='stack',
             margin=go.layout.Margin(
-                l=120,
+                l=80,
                 r=20,
-                b=30,
-                t=30,
+                b=40,
+                t=60,
                 pad=3
             ),
             plot_bgcolor=colors['paper'],
@@ -662,7 +668,7 @@ def update_opposition_bar_graph(first_player, second_player, dates):
                 l=60,
                 r=20,
                 b=40,
-                t=80,
+                t=60,
                 pad=3
             ),
             plot_bgcolor=colors['paper'],
