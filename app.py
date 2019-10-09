@@ -89,7 +89,7 @@ left_column=[
     dcc.Graph(
         id='dismissal-bar-graph',
         style={
-            'height':'210px',
+            'height':'230px',
             'padding-bottom': '10px',
             'backgroundColor':colors['paper']
         }
@@ -138,7 +138,7 @@ right_column=[
     dcc.Graph(
         id='hazard-line-graph',
         style={
-            'height':'400px',
+            'height':'435px',
             'padding-bottom': '20px',
             'backgroundColor':colors['paper'],
             'position': 'relative',
@@ -592,7 +592,7 @@ def update_dismissal_bar_graph(first_player, second_player, dates):
                 l=120,
                 r=20,
                 b=30,
-                t=45,
+                t=30,
                 pad=3
             ),
             plot_bgcolor=colors['paper'],
