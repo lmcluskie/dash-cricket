@@ -16,7 +16,7 @@ colors = {
     'paper': '#192A35',
     'text':'#D6D6D6',
     'title':'#FFFFFF'
-    }
+}
 df_main = pd.read_csv(DATA_PATH.joinpath("rollingMaster.csv"))
 df_dis = df_main[df_main.DisType != 'not out']
 df_KM = pd.read_csv(DATA_PATH.joinpath("kmMaster.csv"))
@@ -185,12 +185,9 @@ right_column=[
                 using the reflection method and a simple uniform kernel of varying bandwidths.'''
             ],
             style={
-                'position': 'relative',
-                'top': '20px',
                 'textAlign':'center',
                 'font-size': '12px',
-                'backgroundColor':colors['paper'],
-                'padding-bottom': '10px'
+                'backgroundColor':colors['paper']
             }
         )
         ],
@@ -198,7 +195,9 @@ right_column=[
             'color': colors['text'],
             'position': 'relative',
             'top': '12px',
-            'backgroundColor':colors['paper']            
+            'backgroundColor':colors['paper'],
+            'padding-top': '10px',
+            'padding-bottom': '10px'
         }
     )    
 ]
@@ -256,22 +255,20 @@ app.layout = html.Div([
         ),
         
         html.Div(
-            className='row',
+            className='row no-pad',
             children=[
                 html.Div(
                     className='six columns',
                     children=left_column,
                     style={
-                        'position':'relative',
-                        'left':'20px'
+                        'padding-left':'30px'
                     }
                 ),
                 html.Div(
                     className='six columns',
                     children=right_column,
                     style={
-                        'position':'relative',
-                        'right':'20px'
+                        'padding-right':'30px'
                     }
                 )
             ]
@@ -340,7 +337,7 @@ def update_KM_line_graph(first_player, second_player, length):
                     'color':line_colors[4],
                     'shape': 'hv'                    
                     },
-                name=f'Top 200 Combined'                
+                name=f'Top 200'                
             ),                   
             go.Scatter(
                 x=x1rev+x1,
@@ -372,7 +369,7 @@ def update_KM_line_graph(first_player, second_player, length):
                     'shape': 'hv',
                     'dash': 'solid'
                 },
-                name='Top 200 Combined CB',
+                name='Top 200 CB',
                 visible=False
             )
         ],
@@ -381,8 +378,7 @@ def update_KM_line_graph(first_player, second_player, length):
                 f'Survival Curve (Kaplan-Meier plot)' 
             ),
             titlefont={
-                'color':colors['title'],
-                'size':22  
+                'color':colors['title']
             },
             xaxis={
                 'title':'Runs',
@@ -414,8 +410,8 @@ def update_KM_line_graph(first_player, second_player, length):
                 'color':colors['text']
             },
             margin=go.layout.Margin(
-                l=80,
-                r=60,
+                l=60,
+                r=20,
                 b=40,
                 t=80,
                 pad=3
@@ -439,7 +435,7 @@ def update_KM_line_graph(first_player, second_player, length):
                     type = "buttons",
                     direction = "down",                    
                     x=1,
-                    y=1.1
+                    y=1
                 )
             ]
         )
@@ -487,13 +483,12 @@ def update_rolling_line_graph(first_player, second_player, length):
         ],
         'layout': go.Layout(
             title=(
-                f'{length} innings Rolling Average and progression of Overall Average' 
+                f'Overall Average and {length} innings Rolling Average' 
                 if length != None
                 else 'Progression of Overall Average'
             ),
             titlefont={
-                'color':colors['title'],
-                'size':22  
+                'color':colors['title']
             },
             xaxis={
                 'title':'Innings',
@@ -523,7 +518,7 @@ def update_rolling_line_graph(first_player, second_player, length):
             },
             margin=go.layout.Margin(
                 l=60,
-                r=40,
+                r=20,
                 b=40,
                 t=80,
                 pad=3
@@ -559,7 +554,7 @@ def update_dismissal_bar_graph(first_player, second_player, dates):
     ]
     props = np.array(counts)/np.array(totals)    
     names = [
-        'Top 200 Combined',
+        'Top 200',
         second_player,
         first_player
     ]
@@ -581,10 +576,9 @@ def update_dismissal_bar_graph(first_player, second_player, dates):
     return {
         'data': data,
         'layout': go.Layout(
-            title=f'How they get dismissed, period considered: {dates[0]}-{dates[1]}',
+            title=f'Mode of Dismissal ({dates[0]}-{dates[1]})',
             titlefont={
-                'color':colors['title'],
-                'size':22                
+                'color':colors['title']    
             },
             xaxis={
                 'title':'Proportion',
@@ -626,7 +620,7 @@ def update_opposition_bar_graph(first_player, second_player, dates):
     names = [
         first_player,
         second_player,
-        'Top 200 Combined'
+        'Top 200'
     ]
     data = []
     for i in range(len(names)):
@@ -646,10 +640,9 @@ def update_opposition_bar_graph(first_player, second_player, dates):
     return {
         'data': data,
         'layout': go.Layout(
-            title=f'Average by Opposition, period considered: {dates[0]}-{dates[1]}',
+            title=f'Average by Opposition ({dates[0]}-{dates[1]})',
             titlefont={
-                'color':colors['title'],
-                'size':22                
+                'color':colors['title']   
             },
             yaxis={
                 'title':'Runs',
@@ -667,9 +660,9 @@ def update_opposition_bar_graph(first_player, second_player, dates):
             },         
             margin=go.layout.Margin(
                 l=60,
-                r=40,
+                r=20,
                 b=40,
-                t=60,
+                t=80,
                 pad=3
             ),
             plot_bgcolor=colors['paper'],
@@ -716,16 +709,15 @@ def update_hazard_line_graph(first_player, second_player, bandwidth):
                     'color':line_colors[4],
                     'shape': 'hv'                    
                     },
-                name=f'Top 200 Combined'                
+                name=f'Top 200'                
             ),
         ],
         'layout': go.Layout(
             title=(
-                f'Level of Risk throughout Innings (Estimated Hazard Function)' 
+                f'Estimated Hazard Function' 
             ),
             titlefont={
-                'color':colors['title'],
-                'size':22  
+                'color':colors['title']
             },
             xaxis={
                 'title':'Runs',
@@ -737,7 +729,7 @@ def update_hazard_line_graph(first_player, second_player, bandwidth):
                 'gridcolor':colors['text']
             },
             yaxis={
-                'title':'Hazard (chance of getting out)',
+                'title':'Estimated Hazard Function',
                 'showline':True,
                 'linewidth':2, 
                 'linecolor':colors['text'],
@@ -755,8 +747,8 @@ def update_hazard_line_graph(first_player, second_player, bandwidth):
                 'color':colors['text']
             },
             margin=go.layout.Margin(
-                l=80,
-                r=60,
+                l=60,
+                r=20,
                 b=40,
                 t=80,
                 pad=3
