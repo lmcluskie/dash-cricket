@@ -93,7 +93,7 @@ left_column=[
         id='opposition-bar-graph',
         style={
             'height':'390px',
-            'padding-bottom': '20px',
+            'padding-bottom': '30px',
             'backgroundColor':colors['paper']
         },
         config={
