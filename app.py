@@ -28,8 +28,9 @@ rolling_periods = [10, 20, 30, 40, 50, 70, 100]
 dates = [1896,1910,1920,1930,1939,1950,1960,1970,1980,1990,2000,2010,2019]
 bar_colors = ['#006DDB', '#D16C00', '#E076D5', '#EE442F', '#63ACBE', '#F9F4EC']
 line_colors = ['#006DDB', '#D16C00','#00CBFF', '#FFE605', '#E076D5', '#8C4A85']  
-teams =['India', 'England', 'Australia', 'South Africa', 'Pakistan', 
-        'New Zealand', 'Sri Lanka', 'West Indies', 'Bangladesh', 'Zimbabwe']
+teams =['India', 'England', 'Australia', 'South Africa',
+        'Pakistan', 'New Zealand', 'Sri Lanka', 'West Indies', 
+        'Bangladesh', 'Zimbabwe']
 tabtitle='Cricket Dashboard'
 
 #initiate
