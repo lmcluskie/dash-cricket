@@ -50,8 +50,16 @@ for name in available_players:
         rolling_table_data[f'Max {i}'].append(round(df[f'rolling{i}'].max(), 2))
 rolling_df = pd.DataFrame(data=rolling_table_data)
 
-# app
+surv_50 = {}
+surv_100 = {}
+for name in available_players:
+    df_player = df_KM[(df_KM['Name'] == name)]
+    df = df_player[df_player['time'] <= 50]
+    surv_50[name] = df.survival.min()
+    df = df_player[df_player['time'] <= 100]
+    surv_100[name] = df.survival.min()
 
+# app
 layout = html.Div(
     [
         html.H3([
@@ -207,13 +215,9 @@ def update_survival_table(scores):
     survival_table_data = {i: [] for i in survival_table_columns}
     for name in available_players:
         survival_table_data['Name'].append(name)
+        survival_table_data[f'Survival from 0 to 50'].append(round(surv_50[name] * 100, 2))
+        survival_table_data[f'Survival from 50 to 100'].append(round(surv_100[name] / surv_50[name] * 100, 2))
         df_player = df_KM[(df_KM['Name'] == name)]
-        df = df_player[df_player['time'] <= 50]
-        surv_50 = df.survival.min()
-        survival_table_data[f'Survival from 0 to 50'].append(round(surv_50 * 100, 2))
-        df = df_player[df_player['time'] <= 100]
-        surv_100 = df.survival.min()
-        survival_table_data[f'Survival from 50 to 100'].append(round(surv_100 / surv_50 * 100, 2))
         df = df_player[(df_player['time'] >= scores[0]) & (df_player['time'] <= scores[1])]
         survival_table_data[f'Custom Range ({scores[0]} to {scores[1]})'].append(round(df.survival.min()/df.survival.max() * 100, 2))
         survival_df = pd.DataFrame(data=survival_table_data)
