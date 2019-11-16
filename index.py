@@ -3,7 +3,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import pathlib
 import pandas as pd
-from app import app
+from app import app, server
 from utils import colors, fonts, header
 from pages import (
     batsmenGraphs,
