@@ -88,7 +88,7 @@ def display_page(pathname):
     elif pathname == '/BatsmenSummary':
         return batsmenSummary.layout, {'display': 'none'}
     else:
-        return batsmenSummary.layout, {'display': 'none'}
+        return batsmenGraphs.layout, {'display': 'block'}
 
 
 if __name__ == '__main__':
