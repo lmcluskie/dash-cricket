@@ -39,30 +39,28 @@ def get_header():
 
 def get_menu():
     menu = html.Div([
-            html.Button([
-                    dcc.Link(
-                        "Comparison Graphs",
-                        href="/BatsmenGraphs",
-                        className="tab",
-                        style={
-                            'color': colors['text'],
-                            'textDecoration': 'none'
-                        }
-                    )
-                ]
+            dcc.Link(
+                html.Button(
+                    "Comparison Graphs",
+                    style={
+                        'color': colors['text'],
+                        'textDecoration': 'none'
+                    }
+                ),
+                href="/BatsmenGraphs",
+                className="tab"
             ),
-            html.Button([
-                    dcc.Link(
-                        "Full Tables",
-                        href="/BatsmenSummary",
-                        className="tab first",
-                        style={
-                            'color': colors['text'],
-                            'textDecoration': 'none'
-                        }
-                    )
-                ]
-            ),
+            dcc.Link(
+                html.Button(
+                    "Full Tables",
+                    style={
+                        'color': colors['text'],
+                        'textDecoration': 'none'
+                    }
+                ),
+                href="/BatsmenSummary",
+                className="tab first"
+            )
         ],
         style={
             'textAlign': 'center'
