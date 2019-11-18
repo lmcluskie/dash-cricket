@@ -139,7 +139,7 @@ right_column = [
     dcc.Graph(
         id='hazard-line-graph',
         style={
-            'height': '410px',
+            'height': '450px',
             'padding-bottom': '20px',
             'backgroundColor': colors['paper'],
             'position': 'relative',
@@ -150,46 +150,10 @@ right_column = [
         }
     ),
     html.Div([
-            'Level of Smoothing: ',
-            html.Div(
-                children=[
-                    dcc.Dropdown(
-                        className='dropdown-period',
-                        id='hazard-smoothing',
-                        options=[
-                            {'label': 'Low', 'value': 'hazard1'},
-                            {'label': 'Medium', 'value': 'hazard2'},
-                            {'label': 'High', 'value': 'hazard3'}
-                        ],
-                        value='hazard3'
-                    ),
-                ],
-                style={
-                    'width': '120px',
-                    'display': 'inline-block',
-                    'color': '#000000',
-                    'position': 'relative',
-                    'top': '12px',
-                    'textAlign': 'left',
-                    'fontFamily': fonts['body']
-                }
-            ),
-        ],
-        style={
-            'textAlign': 'left',
-            'textIndent': '10%',
-            'color': colors['text'],
-            'backgroundColor': colors['paper'],
-            'padding-bottom': '20px',
-            'fontFamily': fonts['body']
-        }
-    ),
-    html.Div([
             html.Div([
-                    ''' All data sourced from cricinfo statsguru, last updated 07/Oct/19.                
+                    ''' All data sourced from cricinfo statsguru, last updated 17/Nov/2019.                
                         Kaplan Meier confidence bands calculated using BPCP. 
-                        Smoothing performed using the reflection method and a simple uniform kernel 
-                        of varying bandwidths.
+                        Kernel density plot made using the reflection method and a linear kernel with bandwidth 20.
                     '''
                 ],
                 style={
@@ -203,9 +167,9 @@ right_column = [
             style={
                 'color': colors['text'],
                 'position': 'relative',
-                'top': '12px',
+                'top': '22px',
                 'backgroundColor': colors['paper'],
-                'padding-top': '12px',
+                'padding-top': '10px',
                 'padding-bottom': '10px'
             }
     )
@@ -648,47 +612,44 @@ def update_opposition_bar_graph(first_player, second_player, dates):
     Output('hazard-line-graph', 'figure'),
     [Input('first-player', 'value'),
      Input('second-player', 'value'),
-     Input('hazard-smoothing', 'value')])
-def update_hazard_line_graph(first_player, second_player, bandwidth):
+     Input('rolling-period', 'value')])
+def update_hazard_line_graph(first_player, second_player, dummy):
     df1 = df_haz[df_haz['Name'] == first_player]
     df2 = df_haz[df_haz['Name'] == second_player]
 
     return {
         'data': [
             go.Scatter(
-                x=df1.time[:120],
-                y=df1[f'{bandwidth}'][:120],
+                x=df1.time[:121],
+                y=df1.hazard[:121],
                 mode='lines',
                 line={
                     'color': line_colors[0],
-                    'shape': 'hv'
                 },
                 name=f'{first_player}'
             ),
             go.Scatter(
-                x=df2.time[:120],
-                y=df2[f'{bandwidth}'][:120],
+                x=df2.time[:121],
+                y=df2.hazard[:121],
                 mode='lines',
                 line={
                     'color': line_colors[1],
-                    'shape': 'hv'
                 },
                 name=f'{second_player}'
             ),
             go.Scatter(
-                x=df_haz_OVR.time[:120],
-                y=df_haz_OVR[f'{bandwidth}'][:120],
+                x=df_haz_OVR.time[:121],
+                y=df_haz_OVR.hazard[:121],
                 mode='lines',
                 line={
                     'color': line_colors[4],
-                    'shape': 'hv'
                 },
                 name=f'Top 200'
             ),
         ],
         'layout': go.Layout(
             title=(
-                f'Estimated Hazard Function'
+                f'Hazard Rate vs Batsman\'s Score'
             ),
             titlefont={
                 'color': colors['title'],
@@ -704,7 +665,7 @@ def update_hazard_line_graph(first_player, second_player, bandwidth):
                 'gridcolor': colors['text']
             },
             yaxis={
-                'title': 'Estimated Hazard Function',
+                'title': 'Hazard Rate',
                 'showline': True,
                 'linewidth': 2,
                 'linecolor': colors['text'],
