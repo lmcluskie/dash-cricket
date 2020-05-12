@@ -24,7 +24,7 @@ def get_header():
     head = html.Div(
         [
             html.H1(
-                ['Explore Cricket Stats'],
+                ['Test Match Data'],
                 style={
                     'textAlign': 'center',
                     'color': colors['title'],

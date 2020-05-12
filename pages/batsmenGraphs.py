@@ -21,7 +21,7 @@ df_haz = pd.read_csv(DATA_PATH.joinpath("hazMaster.csv"))
 df_haz_OVR = pd.read_csv(DATA_PATH.joinpath("hazOverall.csv"))
 available_players = df_main['Name'].unique()
 rolling_periods = [10, 20, 30, 40, 50, 70, 100]
-slider_labels = [1896, 1910, 1920, 1930, 1939, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2019]
+slider_labels = [1896, 1910, 1920, 1930, 1939, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020]
 teams = ['India', 'England', 'Australia', 'South Africa',
          'Pakistan', 'New Zealand', 'Sri Lanka', 'West Indies',
          'Bangladesh', 'Zimbabwe']
@@ -152,7 +152,7 @@ right_column = [
     html.Div([
             html.Div([
                     ''' All data sourced from cricinfo statsguru, last updated 17/Nov/2019.                
-                        Kaplan Meier confidence bands calculated using BPCP. 
+                        Survival Curve confidence bands calculated using the beta product confidence procedure. 
                         Kernel density plot made using the reflection method and a linear kernel with bandwidth 20.
                     '''
                 ],
@@ -300,7 +300,7 @@ def update_km_line_graph(first_player, second_player, dummy):
         ],
         'layout': go.Layout(
             title=(
-                'Survival Curve (Kaplan-Meier plot)'
+                'Survival Curve'
             ),
             titlefont={
                 'color': colors['title'],
@@ -317,7 +317,7 @@ def update_km_line_graph(first_player, second_player, dummy):
                 'range': [0, 150]
             },
             yaxis={
-                'title': 'Survival (%)',
+                'title': 'Probability of being undismissed (%)',
                 'showline': True,
                 'linewidth': 2,
                 'linecolor': colors['text'],

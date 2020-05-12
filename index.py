@@ -26,7 +26,7 @@ app.layout = html.Div([
             id='batsmenGraphs-head',
             children=[
                 html.H3([
-                    'Pick batsmen to visually compare performance summaries'
+                    'Players Compared'
                 ],
                     style={
                         'textAlign': 'center',
