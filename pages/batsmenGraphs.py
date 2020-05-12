@@ -151,7 +151,7 @@ right_column = [
     ),
     html.Div([
             html.Div([
-                    ''' All data sourced from cricinfo statsguru, last updated 17/Nov/2019.                
+                    ''' All data sourced from cricinfo statsguru, last updated 12/May/2020.                
                         Survival Curve confidence bands calculated using the beta product confidence procedure. 
                         Kernel density plot made using the reflection method and a linear kernel with bandwidth 20.
                     '''
