@@ -1,5 +1,5 @@
 # dash-cricket
- Dashboard to display cricket stats
+ Dashboard to display cricket stats, hosted by Heroku at https://burningtin-cricket.herokuapp.com/
  
  Data used is from the 200 highest scorers in test cricket with average > 35.
  
