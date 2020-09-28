@@ -152,7 +152,7 @@ left_column = [
             'display': 'inline-block',
             'position': 'relative',
             'top': '0px',
-            'padding-bottom': '20px'
+            'padding-bottom': '12px'
         }
     ),
     dcc.Graph(
@@ -310,8 +310,9 @@ def update_summary_table(first_player, second_player):
 @app.callback(
     Output('KM-line-graph', 'figure'),
     [Input('first-player', 'value'),
-     Input('second-player', 'value')])
-def update_km_line_graph(first_player, second_player):
+     Input('second-player', 'value'),
+     Input('rolling-period', 'value')])
+def update_km_line_graph(first_player, second_player, dummy):
     df1 = df_KM[df_KM['Name'] == first_player]
     df2 = df_KM[df_KM['Name'] == second_player]
 
@@ -714,8 +715,9 @@ def update_opposition_bar_graph(first_player, second_player, dates):
 @app.callback(
     Output('hazard-line-graph', 'figure'),
     [Input('first-player', 'value'),
-     Input('second-player', 'value')])
-def update_hazard_line_graph(first_player, second_player):
+     Input('second-player', 'value'),
+     Input('rolling-period', 'value')])
+def update_hazard_line_graph(first_player, second_player, dummy):
     df1 = df_haz[df_haz['Name'] == first_player]
     df2 = df_haz[df_haz['Name'] == second_player]
 
