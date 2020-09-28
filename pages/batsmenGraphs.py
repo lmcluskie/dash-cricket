@@ -1,6 +1,7 @@
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
+import dash_table as dt
 import numpy as np
 import pandas as pd
 import plotly.graph_objs as go
@@ -8,18 +9,22 @@ import pathlib
 from app import app
 from utils import colors, fonts
 
+
 PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("../data").resolve()
 
+update_date = '25/Sep/2020'
 bar_colors = ['#47D0E8', '#EF9A45', '#8DF279', '#E076D5', '#EE442F', '#FFFCF4']
 line_colors = ['#47D0E8', '#EF9A45', '#006DDB', '#D16C00', '#8DF279']
 df_main = pd.read_csv(DATA_PATH.joinpath("rollingMaster.csv"))
-df_dis = df_main[df_main.DisType != 'not out']
+df_dis = df_main[df_main.Dismissal != 'not out']
 df_KM = pd.read_csv(DATA_PATH.joinpath("kmMaster.csv"))
 df_KM_OVR = pd.read_csv(DATA_PATH.joinpath("kmOverall.csv"))
 df_haz = pd.read_csv(DATA_PATH.joinpath("hazMaster.csv"))
 df_haz_OVR = pd.read_csv(DATA_PATH.joinpath("hazOverall.csv"))
+df_sum = pd.read_csv(DATA_PATH.joinpath("summaryMaster.csv"))
 available_players = df_main['Name'].unique()
+summary_columns = ['Name', 'Span', 'Mat', 'Inns', 'Runs', 'HS', 'Ave', '50', '100']
 rolling_periods = [10, 20, 30, 40, 50, 70, 100]
 slider_labels = [1896, 1910, 1920, 1930, 1939, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020]
 teams = ['India', 'England', 'Australia', 'South Africa',
@@ -27,11 +32,11 @@ teams = ['India', 'England', 'Australia', 'South Africa',
          'Bangladesh', 'Zimbabwe']
 
 # app
-left_column = [
+right_column = [
     dcc.Graph(
         id='rolling-line-graph',
         style={
-            'height': '500px',
+            'height': '450px',
             'backgroundColor': colors['paper']
         },
         config={
@@ -39,7 +44,7 @@ left_column = [
         }
     ),
     html.Div([
-            'Length of rolling average periods: ',
+            'Rolling Period Length: ',
             html.Div(
                 children=[
                     dcc.Dropdown(
@@ -61,21 +66,22 @@ left_column = [
             ),
         ],
         style={
-            'textAlign': 'left',
+            'textAlign': 'center',
             'textIndent': '10%',
             'color': colors['text'],
-            'backgroundColor': colors['paper'],
-            'padding-bottom': '20px',
-            'fontFamily': fonts['body']
+            'fontFamily': fonts['body'],
+            'position': 'relative',
+            'top':'-60px',
+            'left': '25%'
         }
     ),
     dcc.Graph(
         id='dismissal-bar-graph',
         style={
-            'height': '250px',
+            'height': '230px',
             'position': 'relative',
-            'top': '12px',
-            'padding-bottom': '12px',
+            'top': '-32px',
+            'padding-bottom': '20px',
             'backgroundColor': colors['paper']
         },
         config={
@@ -86,14 +92,24 @@ left_column = [
         id='opposition-bar-graph',
         style={
             'height': '390px',
-            'backgroundColor': colors['paper']
+            'backgroundColor': colors['paper'],
+            'position': 'relative',
+            'top': '-20px',
         },
         config={
             'displayModeBar': False
         }
     ),
     html.Div([
-        'Date Range:    .',
+        html.Div(
+            'Date Range:',
+            style={
+                'position':'relative',
+                'top':'20px',
+                'left':'20px',
+                'textAlign': 'left',
+            }
+        ),
         html.Div(
             children=[
                 dcc.RangeSlider(
@@ -112,23 +128,37 @@ left_column = [
             ],
             style={
                 'width': '80%',
-                'display': 'inline-block'
+                'display': 'inline-block',
+                'position':'relative',
+                'left':'20px',
             }
-        ),
-    ],
+        )
+        ],
         style={
             'textAlign': 'center',
             'color': colors['text'],
             'backgroundColor': colors['paper'],
-            'padding-bottom': '20px'
+            'padding-bottom': '20px',
+            'position': 'relative',
+            'top': '-50px',
         }
     )
 ]
-right_column = [
+left_column = [
+    html.Div(
+        id='summary-table',
+        style={
+            'width': '100%',
+            'display': 'inline-block',
+            'position': 'relative',
+            'top': '0px',
+            'padding-bottom': '20px'
+        }
+    ),
     dcc.Graph(
         id='KM-line-graph',
         style={
-            'height': '650px',
+            'height': '450px',
             'padding-bottom': '20px',
             'backgroundColor': colors['paper']
         },
@@ -151,10 +181,7 @@ right_column = [
     ),
     html.Div([
             html.Div([
-                    ''' All data sourced from cricinfo statsguru, last updated 12/May/2020.                
-                        Survival Curve confidence bands calculated using the beta product confidence procedure. 
-                        Kernel density plot made using the reflection method and a linear kernel with bandwidth 20.
-                    '''
+                    f'All data sourced from cricinfo statsguru, last updated {update_date}'
                 ],
                 style={
                     'textAlign': 'center',
@@ -185,31 +212,106 @@ layout = html.Div(
                     className='six columns',
                     children=left_column,
                     style={
-                        'padding-left': '30px'
+                        'padding-left': '60px',
+                        'position': 'relative',
+                        'left': '20px'
                     }
                 ),
                 html.Div(
                     className='six columns',
                     children=right_column,
                     style={
-                        'padding-right': '30px'
+                        'padding-right': '60px',
+                        'position': 'relative',
+                        'right': '20px'
                     }
                 )
             ]
         )
     ],
     style={
-            'backgroundColor': colors['background']
+            'backgroundColor': colors['background'],
+            'position': 'relative',
+            'top': '-25px'
         }
 )
 
 
 @app.callback(
+    Output('summary-table', 'children'),
+    [Input('first-player', 'value'),
+     Input('second-player', 'value')])
+def update_summary_table(first_player, second_player):
+    df1 = df_sum[df_sum['Name'] == first_player]
+    df2 = df_sum[df_sum['Name'] == second_player]
+    
+    column_titles = ['Name', 'Career Span', 'Matches', 'Innings', 'Runs',
+                     'High Score', 'Average', '50s', '100s']
+    column_widths=[
+        {'if': {'column_id': 'Name'}, 'width': '22%'},
+        {'if': {'column_id': 'Span'},'width': '15%'},
+        {'if': {'column_id': 'Mat'}, 'width': '9%'},
+        {'if': {'column_id': 'Inns'},'width': '9%'},
+        {'if': {'column_id': 'Runs'}, 'width': '9%'},
+        {'if': {'column_id': 'HS'},'width': '11%'},
+        {'if': {'column_id': 'Ave'}, 'width': '11%'},
+        {'if': {'column_id': '50'},'width': '7%'},
+        {'if': {'column_id': '100'}, 'width': '7%'},        
+    ]
+    
+    return [
+        dt.DataTable(
+            columns=[
+                {'name': column_titles[i],
+                 'id': summary_columns[i],
+                 'editable': False}
+                for i in range(len(column_titles))
+            ],
+            data=[],
+            style_as_list_view=True,
+            style_header={
+                'backgroundColor': colors['paper'],
+                'color': colors['text']
+            },
+            style_cell_conditional=column_widths        
+        ),
+        dt.DataTable(
+            columns=[
+                {'name': df1[i].iloc[0],
+                 'id': f'{i}',
+                 'editable': False}
+                for i in summary_columns
+            ],
+            data=[],
+            style_as_list_view=True,
+            style_header={
+                'backgroundColor': line_colors[2],
+                'color': colors['text']
+            },
+            style_cell_conditional=column_widths        
+        ),
+        dt.DataTable(
+            columns=[
+                {'name': df2[i].iloc[0],
+                 'id': f'{i}',
+                 'editable': False}
+                for i in summary_columns
+            ],
+            data=[],
+            style_as_list_view=True,
+            style_header={
+                'backgroundColor': line_colors[3],
+                'color': colors['text']
+            },
+            style_cell_conditional=column_widths        
+        )        
+    ]
+
+@app.callback(
     Output('KM-line-graph', 'figure'),
     [Input('first-player', 'value'),
-     Input('second-player', 'value'),
-     Input('rolling-period', 'value')])
-def update_km_line_graph(first_player, second_player, dummy):
+     Input('second-player', 'value')])
+def update_km_line_graph(first_player, second_player):
     df1 = df_KM[df_KM['Name'] == first_player]
     df2 = df_KM[df_KM['Name'] == second_player]
 
@@ -262,7 +364,7 @@ def update_km_line_graph(first_player, second_player, dummy):
                     'color': line_colors[4],
                     'shape': 'hv'
                 },
-                name=f'Top 200'
+                name='Top 200 Combined'
             ),
             go.Scatter(
                 x=x1rev + x1,
@@ -294,7 +396,7 @@ def update_km_line_graph(first_player, second_player, dummy):
                     'shape': 'hv',
                     'dash': 'solid'
                 },
-                name='Top 200',
+                name='Top 200 Combined',
                 visible=False
             )
         ],
@@ -337,7 +439,7 @@ def update_km_line_graph(first_player, second_player, dummy):
                 'family': fonts['body']
             },
             margin=go.layout.Margin(
-                l=60,
+                l=80,
                 r=30,
                 b=40,
                 t=80,
@@ -377,33 +479,34 @@ def update_km_line_graph(first_player, second_player, dummy):
 def update_rolling_line_graph(first_player, second_player, length):
     df1 = df_main[df_main['Name'] == first_player]
     df2 = df_main[df_main['Name'] == second_player]
+    most_innings = max(len(df1),len(df1))
     return {
         'data': [
             go.Scatter(
-                x=list(range(10, len(df1))) if length is not None else None,
-                y=df1[f'rolling{length}'][10:] if length is not None else None,
+                x=list(range(len(df1))) if length is not None else None,
+                y=df1[f'rolling{length}'] if length is not None else None,
                 mode='lines',
                 line={'color': line_colors[0]},
                 name=f'ROLL {first_player}'
             ),
             go.Scatter(
-                x=list(range(10, len(df2))) if length is not None else None,
-                y=df2[f'rolling{length}'][10:] if length is not None else None,
-                mode='lines',
-                line={'color': line_colors[1]},
-                name=f'ROLL {second_player}'
-            ),
-            go.Scatter(
-                x=list(range(10, len(df1))),
-                y=df1.Ave[10:],
+                x=list(range(most_innings)),
+                y=[df1['Ave'].iloc[-1]]*most_innings,
                 mode='lines',
                 line={'color': line_colors[2]},
                 name=f'OVR {first_player}'
 
             ),
             go.Scatter(
-                x=list(range(10, len(df2))),
-                y=df2.Ave[10:],
+                x=list(range(len(df2))) if length is not None else None,
+                y=df2[f'rolling{length}'] if length is not None else None,
+                mode='lines',
+                line={'color': line_colors[1]},
+                name=f'ROLL {second_player}'
+            ),
+            go.Scatter(
+                x=list(range(most_innings)),
+                y=[df2['Ave'].iloc[-1]]*most_innings,
                 mode='lines',
                 line={'color': line_colors[3]},
                 name=f'OVR {second_player}'
@@ -448,9 +551,9 @@ def update_rolling_line_graph(first_player, second_player, length):
                 'family': fonts['body']
             },
             margin=go.layout.Margin(
-                l=50,
+                l=80,
                 r=30,
-                b=40,
+                b=80,
                 t=80,
                 pad=3
             ),
@@ -469,24 +572,24 @@ def update_dismissal_bar_graph(first_player, second_player, dates):
     dfcopy = df_dis[(df_dis['Date'] >= dates[0]) & (df_dis['Date'] <= dates[1])]
     df2 = dfcopy[dfcopy['Name'] == first_player]
     df1 = dfcopy[dfcopy['Name'] == second_player]
-    labels = list(dfcopy.DisType.value_counts().index)
+    labels = list(dfcopy.Dismissal.value_counts().index)
     counts = [
-        list(dfcopy.DisType.value_counts().values),
-        list(df1.DisType.value_counts().values),
-        list(df2.DisType.value_counts().values)
+        list(dfcopy.Dismissal.value_counts().values),
+        list(df1.Dismissal.value_counts().values),
+        list(df2.Dismissal.value_counts().values)
     ]
     categories = len(counts[0])
     for i in range(1, len(counts)):
         while len(counts[i]) < categories:
             counts[i].append(np.NaN)
     totals = [
-        [dfcopy.DisType.value_counts().values.sum()] * categories,
-        [df1.DisType.value_counts().values.sum()] * categories,
-        [df2.DisType.value_counts().values.sum()] * categories
+        [dfcopy.Dismissal.value_counts().values.sum()] * categories,
+        [df1.Dismissal.value_counts().values.sum()] * categories,
+        [df2.Dismissal.value_counts().values.sum()] * categories
     ]
     props = np.array(counts) / np.array(totals)
     names = [
-        'Top 200',
+        'Top 200 Combined',
         second_player,
         first_player
     ]
@@ -523,7 +626,7 @@ def update_dismissal_bar_graph(first_player, second_player, dates):
             },
             barmode='stack',
             margin=go.layout.Margin(
-                l=80,
+                l=120,
                 r=20,
                 b=40,
                 t=60,
@@ -547,15 +650,15 @@ def update_opposition_bar_graph(first_player, second_player, dates):
     values = [[], [], []]
     for team in teams:
         dftemp = df1[df1['Opposition'] == team]
-        values[0].append(np.NaN if dftemp.empty else round(dftemp.Runs.sum() / max(1, dftemp.Dismissed.sum()), 2))
+        values[0].append(np.NaN if dftemp.empty else round(dftemp.Runs.sum() / max(1, dftemp.Out.sum()), 2))
         dftemp = df2[df2['Opposition'] == team]
-        values[1].append(np.NaN if dftemp.empty else round(dftemp.Runs.sum() / max(1, dftemp.Dismissed.sum()), 2))
+        values[1].append(np.NaN if dftemp.empty else round(dftemp.Runs.sum() / max(1, dftemp.Out.sum()), 2))
         dftemp = dfcopy[dfcopy['Opposition'] == team]
-        values[2].append(np.NaN if dftemp.empty else round(dftemp.Runs.sum() / max(1, dftemp.Dismissed.sum()), 2))
+        values[2].append(np.NaN if dftemp.empty else round(dftemp.Runs.sum() / max(1, dftemp.Out.sum()), 2))
     names = [
         first_player,
         second_player,
-        'Top 200'
+        'Top 200 Combined'
     ]
     data = []
     for i in range(len(names)):
@@ -564,7 +667,7 @@ def update_opposition_bar_graph(first_player, second_player, dates):
                 y=values[i],
                 x=teams,
                 name=names[i],
-                text=[int(n) if n == n else n for n in values[i]],
+                text=[int(n) if n == n else '' for n in values[i]],
                 textposition='outside',
                 hoverinfo='y+name',
                 marker={
@@ -596,7 +699,7 @@ def update_opposition_bar_graph(first_player, second_player, dates):
                 'x': 0
             },
             margin=go.layout.Margin(
-                l=50,
+                l=80,
                 r=30,
                 b=60,
                 t=60,
@@ -611,17 +714,16 @@ def update_opposition_bar_graph(first_player, second_player, dates):
 @app.callback(
     Output('hazard-line-graph', 'figure'),
     [Input('first-player', 'value'),
-     Input('second-player', 'value'),
-     Input('rolling-period', 'value')])
-def update_hazard_line_graph(first_player, second_player, dummy):
+     Input('second-player', 'value')])
+def update_hazard_line_graph(first_player, second_player):
     df1 = df_haz[df_haz['Name'] == first_player]
     df2 = df_haz[df_haz['Name'] == second_player]
 
     return {
         'data': [
             go.Scatter(
-                x=df1.time[:121],
-                y=df1.hazard[:121],
+                x=list(range(121)),
+                y=df1['Smooth2 Haz'],
                 mode='lines',
                 line={
                     'color': line_colors[0],
@@ -629,8 +731,8 @@ def update_hazard_line_graph(first_player, second_player, dummy):
                 name=f'{first_player}'
             ),
             go.Scatter(
-                x=df2.time[:121],
-                y=df2.hazard[:121],
+                x=list(range(121)),
+                y=df2['Smooth2 Haz'],
                 mode='lines',
                 line={
                     'color': line_colors[1],
@@ -638,18 +740,18 @@ def update_hazard_line_graph(first_player, second_player, dummy):
                 name=f'{second_player}'
             ),
             go.Scatter(
-                x=df_haz_OVR.time[:121],
-                y=df_haz_OVR.hazard[:121],
+                x=list(range(121)),
+                y=df_haz_OVR['Smooth2 Haz'],
                 mode='lines',
                 line={
                     'color': line_colors[4],
                 },
-                name=f'Top 200'
+                name='Top 200 Combined'
             ),
         ],
         'layout': go.Layout(
             title=(
-                f'Hazard Rate vs Batsman\'s Score'
+                'Dismissal Rate through Innings'
             ),
             titlefont={
                 'color': colors['title'],
@@ -684,7 +786,7 @@ def update_hazard_line_graph(first_player, second_player, dummy):
                 'family': fonts['body']
             },
             margin=go.layout.Margin(
-                l=60,
+                l=80,
                 r=30,
                 b=40,
                 t=80,

@@ -3,12 +3,9 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import pathlib
 import pandas as pd
-from app import app, server
+from app import app
 from utils import colors, fonts, header
-from pages import (
-    batsmenGraphs,
-    batsmenSummary
-)
+from pages import batsmenGraphs
 
 PATH = pathlib.Path(__file__)
 DATA_PATH = PATH.joinpath("../data").resolve()
@@ -19,19 +16,22 @@ available_players = df_main['Name'].unique()
 
 app.layout = html.Div([
         dcc.Location(id='url', refresh=False),
-
+        
         html.Div(header()),
 
         html.Div(
             id='batsmenGraphs-head',
             children=[
                 html.H3([
-                    'Players Compared'
+                    'Batsmen Compared'
                 ],
                     style={
                         'textAlign': 'center',
                         'color': colors['title'],
-                        'fontFamily': fonts['title']
+                        'fontFamily': fonts['title'],
+                        'position': 'relative',
+                        'top': '-100px',
+                        'left': '200px'
                     }
                 ),
 
@@ -45,7 +45,9 @@ app.layout = html.Div([
                         ],
                             style={
                                 'width': '300px',
-                                'display': 'inline-block'
+                                'display': 'inline-block',
+                                'position': 'relative',
+                                'top': '-20px'
                             }
                         ),
                         html.Div([
@@ -57,20 +59,31 @@ app.layout = html.Div([
                         ],
                             style={
                                 'width': '300px',
-                                'display': 'inline-block'
+                                'display': 'inline-block',
+                                'position': 'relative',
+                                'top': '-20px'
                             }
                         ),
                     ],
                     style={
                         'textAlign': 'center',
-                        'padding-bottom': '15px',
-                        'fontFamily': fonts['body']
+                        'padding-bottom': '0px',
+                        'fontFamily': fonts['body'],
+                        'position': 'relative',
+                        'top': '-90px',
+                        'left': '10%'
                     }
                 )
             ]
         ),
 
-        html.Div(id='page-content')
+        html.Div(
+            id='page-content',
+            style={
+                'position':'relative',
+                'top':'-75px',
+            }
+        )
     ],
     style={
         'backgroundColor': colors['background']
@@ -83,13 +96,8 @@ app.layout = html.Div([
      Output('batsmenGraphs-head', 'style')],
     [Input('url', 'pathname')])
 def display_page(pathname):
-    if pathname == '/BatsmenGraphs':
         return batsmenGraphs.layout, {'display': 'block'}
-    elif pathname == '/BatsmenSummary':
-        return batsmenSummary.layout, {'display': 'none'}
-    else:
-        return batsmenGraphs.layout, {'display': 'block'}
-
+    
 
 if __name__ == '__main__':
     app.run_server()

@@ -17,54 +17,23 @@ fonts = {
 
 
 def header():
-    return html.Div([get_header(), get_menu()])
+    return html.Div(get_header())
 
 
 def get_header():
     head = html.Div(
         [
             html.H1(
-                ['Test Match Data'],
+                ['Test Match Careers'],
                 style={
-                    'textAlign': 'center',
                     'color': colors['title'],
-                    'padding-top': '20px',
-                    'fontFamily': fonts['title']
+                    'padding-top': '10px',
+                    'fontFamily': fonts['title'],
+                    'position': 'relative',
+                    'left': '10%',
+                    'fontSize': '68px'
                 }
             )
         ]
     )
     return head
-
-
-def get_menu():
-    menu = html.Div([
-            dcc.Link(
-                html.Button(
-                    "Comparison Graphs",
-                    style={
-                        'color': colors['text'],
-                        'textDecoration': 'none'
-                    }
-                ),
-                href="/BatsmenGraphs",
-                className="tab"
-            ),
-            dcc.Link(
-                html.Button(
-                    "Full Tables",
-                    style={
-                        'color': colors['text'],
-                        'textDecoration': 'none'
-                    }
-                ),
-                href="/BatsmenSummary",
-                className="tab first"
-            )
-        ],
-        style={
-            'textAlign': 'center'
-        },
-        className="row all-tabs",
-    )
-    return menu
