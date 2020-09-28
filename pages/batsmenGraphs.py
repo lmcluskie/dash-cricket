@@ -481,7 +481,7 @@ def update_km_line_graph(first_player, second_player, dummy):
 def update_rolling_line_graph(first_player, second_player, length):
     df1 = df_main[df_main['Name'] == first_player]
     df2 = df_main[df_main['Name'] == second_player]
-    most_innings = max(len(df1),len(df1))
+    most_innings = max(len(df1),len(df2))
     return {
         'data': [
             go.Scatter(
