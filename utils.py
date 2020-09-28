@@ -11,8 +11,8 @@ colors = {
 }
 
 fonts = {
-    'title': 'Bodoni',
-    'body': 'Garamond'
+    'title': 'Bookman',
+    'body': 'Arial'
 }
 
 

@@ -14,8 +14,9 @@ PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("../data").resolve()
 
 update_date = '25/Sep/2020'
-bar_colors = ['#47D0E8', '#EF9A45', '#8DF279', '#E076D5', '#EE442F', '#FFFCF4']
-line_colors = ['#47D0E8', '#EF9A45', '#006DDB', '#D16C00', '#8DF279']
+bar_colors = [ '#EE442F','#E076D5', '#47D0E8', '#8DF279',  '#EF9A45', '#FFFCF4']
+line_colors = ['#006DDB', '#D16C00', 'rgba(101, 252, 71, .4)', '#47D0E8', '#EF9A45']
+grid_color = 'rgba(201, 201, 201, 0.5)'
 df_main = pd.read_csv(DATA_PATH.joinpath("rollingMaster.csv"))
 df_dis = df_main[df_main.Dismissal != 'not out']
 df_KM = pd.read_csv(DATA_PATH.joinpath("kmMaster.csv"))
@@ -94,7 +95,7 @@ right_column = [
             'height': '390px',
             'backgroundColor': colors['paper'],
             'position': 'relative',
-            'top': '-20px',
+            'top': '-40px',
         },
         config={
             'displayModeBar': False
@@ -158,7 +159,7 @@ left_column = [
     dcc.Graph(
         id='KM-line-graph',
         style={
-            'height': '450px',
+            'height': '514px',
             'padding-bottom': '20px',
             'backgroundColor': colors['paper']
         },
@@ -285,7 +286,7 @@ def update_summary_table(first_player, second_player):
             data=[],
             style_as_list_view=True,
             style_header={
-                'backgroundColor': line_colors[2],
+                'backgroundColor': line_colors[0],
                 'color': colors['text']
             },
             style_cell_conditional=column_widths        
@@ -300,7 +301,7 @@ def update_summary_table(first_player, second_player):
             data=[],
             style_as_list_view=True,
             style_header={
-                'backgroundColor': line_colors[3],
+                'backgroundColor': line_colors[1],
                 'color': colors['text']
             },
             style_cell_conditional=column_widths        
@@ -362,7 +363,7 @@ def update_km_line_graph(first_player, second_player, dummy):
                 y=y3,
                 mode='lines',
                 line={
-                    'color': line_colors[4],
+                    'color': line_colors[2],
                     'shape': 'hv'
                 },
                 name='Top 200 Combined'
@@ -393,7 +394,7 @@ def update_km_line_graph(first_player, second_player, dummy):
                 x=x3rev + x3,
                 y=lower3 + upper3,
                 line={
-                    'color': line_colors[4],
+                    'color': line_colors[2],
                     'shape': 'hv',
                     'dash': 'solid'
                 },
@@ -416,7 +417,7 @@ def update_km_line_graph(first_player, second_player, dummy):
                 'linecolor': colors['text'],
                 'showgrid': True,
                 'gridwidth': 1,
-                'gridcolor': colors['text'],
+                'gridcolor': grid_color,
                 'range': [0, 150]
             },
             yaxis={
@@ -426,7 +427,7 @@ def update_km_line_graph(first_player, second_player, dummy):
                 'linecolor': colors['text'],
                 'showgrid': True,
                 'gridwidth': 1,
-                'gridcolor': colors['text'],
+                'gridcolor': grid_color,
                 'range': [0, 100],
                 'hoverformat': '.2f'
             },
@@ -494,7 +495,7 @@ def update_rolling_line_graph(first_player, second_player, length):
                 x=list(range(most_innings)),
                 y=[df1['Ave'].iloc[-1]]*most_innings,
                 mode='lines',
-                line={'color': line_colors[2]},
+                line={'color': line_colors[3]},
                 name=f'OVR {first_player}'
 
             ),
@@ -509,7 +510,7 @@ def update_rolling_line_graph(first_player, second_player, length):
                 x=list(range(most_innings)),
                 y=[df2['Ave'].iloc[-1]]*most_innings,
                 mode='lines',
-                line={'color': line_colors[3]},
+                line={'color': line_colors[4]},
                 name=f'OVR {second_player}'
             )
         ],
@@ -530,7 +531,7 @@ def update_rolling_line_graph(first_player, second_player, length):
                 'linecolor': colors['text'],
                 'showgrid': True,
                 'gridwidth': 1,
-                'gridcolor': colors['text']
+                'gridcolor': grid_color
             },
             yaxis={
                 'title': 'Runs',
@@ -539,7 +540,7 @@ def update_rolling_line_graph(first_player, second_player, length):
                 'linecolor': colors['text'],
                 'showgrid': True,
                 'gridwidth': 1,
-                'gridcolor': colors['text'],
+                'gridcolor': grid_color,
                 'hoverformat': '.2f'
             },
             legend={
@@ -672,7 +673,7 @@ def update_opposition_bar_graph(first_player, second_player, dates):
                 textposition='outside',
                 hoverinfo='y+name',
                 marker={
-                    'color': bar_colors[i],
+                    'color': line_colors[i],
                 }
             )
         )
@@ -688,7 +689,7 @@ def update_opposition_bar_graph(first_player, second_player, dates):
                 'title': 'Runs',
                 'showgrid': True,
                 'gridwidth': 1,
-                'gridcolor': colors['text']
+                'gridcolor': grid_color
             },
             font={
                 'color': colors['text'],
@@ -746,7 +747,7 @@ def update_hazard_line_graph(first_player, second_player, dummy):
                 y=df_haz_OVR['Smooth2 Haz'],
                 mode='lines',
                 line={
-                    'color': line_colors[4],
+                    'color': line_colors[2],
                 },
                 name='Top 200 Combined'
             ),
@@ -766,7 +767,7 @@ def update_hazard_line_graph(first_player, second_player, dummy):
                 'linecolor': colors['text'],
                 'showgrid': True,
                 'gridwidth': 1,
-                'gridcolor': colors['text']
+                'gridcolor': grid_color
             },
             yaxis={
                 'title': 'Hazard Rate',
@@ -775,7 +776,7 @@ def update_hazard_line_graph(first_player, second_player, dummy):
                 'linecolor': colors['text'],
                 'showgrid': True,
                 'gridwidth': 1,
-                'gridcolor': colors['text'],
+                'gridcolor': grid_color,
                 'hoverformat': '.4f'
             },
             legend={

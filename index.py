@@ -31,7 +31,7 @@ app.layout = html.Div([
                         'fontFamily': fonts['title'],
                         'position': 'relative',
                         'top': '-100px',
-                        'left': '200px'
+                        'left': '10%'
                     }
                 ),
 
@@ -81,7 +81,7 @@ app.layout = html.Div([
             id='page-content',
             style={
                 'position':'relative',
-                'top':'-75px',
+                'top':'-70px',
             }
         )
     ],
