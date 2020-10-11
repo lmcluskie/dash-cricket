@@ -9,7 +9,7 @@ from player import Batsman
 
 
 pd.options.mode.chained_assignment = None
-DATA_PATH = pathlib.Path(__file__).parent.joinpath("../dash-cricket/data").resolve()
+DATA_PATH = pathlib.Path(__file__).parent.joinpath("../dashboard/data").resolve()
 
 
 def make_app_data(i_n, download=False):
