@@ -13,17 +13,19 @@ from utils import colors, fonts
 PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("../data").resolve()
 
-update_date = '25/Sep/2020'
+update_date = open(DATA_PATH.joinpath("last_updated.txt"), "r").read()
 bar_colors = [ '#EE442F','#E076D5', '#47D0E8', '#8DF279',  '#EF9A45', '#FFFCF4']
 line_colors = ['#006DDB', '#D16C00', 'rgba(101, 252, 71, .4)', '#47D0E8', '#EF9A45']
 grid_color = 'rgba(201, 201, 201, 0.5)'
-df_main = pd.read_csv(DATA_PATH.joinpath("rollingMaster.csv"))
+
+df_main = pd.read_csv(DATA_PATH.joinpath("innings.csv"))
+df_km = pd.read_csv(DATA_PATH.joinpath("survival.csv"))
+df_km_overall = df_km[df_km['Name']=='overall']
+df_haz = pd.read_csv(DATA_PATH.joinpath("hazard.csv"))
+df_haz_overall = df_haz[df_haz['Name']=='overall']
+df_sum = pd.read_csv(DATA_PATH.joinpath("summary.csv"))
+
 df_dis = df_main[df_main.Dismissal != 'not out']
-df_KM = pd.read_csv(DATA_PATH.joinpath("kmMaster.csv"))
-df_KM_OVR = pd.read_csv(DATA_PATH.joinpath("kmOverall.csv"))
-df_haz = pd.read_csv(DATA_PATH.joinpath("hazMaster.csv"))
-df_haz_OVR = pd.read_csv(DATA_PATH.joinpath("hazOverall.csv"))
-df_sum = pd.read_csv(DATA_PATH.joinpath("summaryMaster.csv"))
 available_players = df_main['Name'].unique()
 summary_columns = ['Name', 'Span', 'Mat', 'Inns', 'Runs', 'HS', 'Ave', '50', '100']
 rolling_periods = [10, 20, 30, 40, 50, 70, 100]
@@ -314,8 +316,8 @@ def update_summary_table(first_player, second_player):
      Input('second-player', 'value'),
      Input('rolling-period', 'value')])
 def update_km_line_graph(first_player, second_player, dummy):
-    df1 = df_KM[df_KM['Name'] == first_player]
-    df2 = df_KM[df_KM['Name'] == second_player]
+    df1 = df_km[df_km['Name'] == first_player]
+    df2 = df_km[df_km['Name'] == second_player]
 
     x1 = list(df1.time)
     x1rev = x1[::-1]
@@ -329,11 +331,11 @@ def update_km_line_graph(first_player, second_player, dummy):
     upper2 = list(df2.upper * 100)
     lower2 = list(df2.lower * 100)
     lower2 = lower2[::-1]
-    x3 = list(df_KM_OVR.time)
+    x3 = list(df_km_overall.time)
     x3rev = x3[::-1]
-    y3 = df_KM_OVR.survival * 100
-    upper3 = list(df_KM_OVR.upper * 100)
-    lower3 = list(df_KM_OVR.lower * 100)
+    y3 = df_km_overall.survival * 100
+    upper3 = list(df_km_overall.upper * 100)
+    lower3 = list(df_km_overall.lower * 100)
     lower3 = lower3[::-1]
 
     return {
@@ -459,7 +461,7 @@ def update_km_line_graph(first_player, second_player, dummy):
                         ),
                         dict(
                             args=[{"visible": [False] * 3 + [True] * 3}],
-                            label="95% Confidence Bands",
+                            label="95% CI",
                             method="restyle"
                         )
                     ]),
@@ -516,9 +518,9 @@ def update_rolling_line_graph(first_player, second_player, length):
         ],
         'layout': go.Layout(
             title=(
-                f'Overall Average and {length} innings Rolling Average'
+                f'Rolling AVG ({length} inns) and Career AVG'
                 if length is not None
-                else 'Progression of Overall Average'
+                else 'Overall Average'
             ),
             titlefont={
                 'color': colors['title'],
@@ -689,7 +691,8 @@ def update_opposition_bar_graph(first_player, second_player, dates):
                 'title': 'Runs',
                 'showgrid': True,
                 'gridwidth': 1,
-                'gridcolor': grid_color
+                'gridcolor': grid_color,
+                'range': [0, np.nanmax(values)+10]
             },
             font={
                 'color': colors['text'],
@@ -744,7 +747,7 @@ def update_hazard_line_graph(first_player, second_player, dummy):
             ),
             go.Scatter(
                 x=list(range(121)),
-                y=df_haz_OVR['Smooth2 Haz'],
+                y=df_haz_overall['Smooth2 Haz'],
                 mode='lines',
                 line={
                     'color': line_colors[2],

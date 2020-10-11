@@ -11,7 +11,7 @@ PATH = pathlib.Path(__file__)
 DATA_PATH = PATH.joinpath("../data").resolve()
 
 selected = ['V Kohli', 'SPD Smith']
-df_main = pd.read_csv(DATA_PATH.joinpath("rollingMaster.csv"))
+df_main = pd.read_csv(DATA_PATH.joinpath("innings.csv"))
 available_players = df_main['Name'].unique()
 
 app.layout = html.Div([
