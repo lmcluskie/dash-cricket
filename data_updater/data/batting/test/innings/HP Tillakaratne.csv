@@ -1,0 +1,132 @@
+,Name,Runs,Dismissal,Pos,Opposition,Ave,RunTally,DisTally,Date,Out,rolling10,rolling20,rolling30,rolling40,rolling50,rolling70,rolling100
+0,HP Tillakaratne,0,caught,7,Australia,0.0,0,1,1989,1,,,,,,,
+1,HP Tillakaratne,6,caught,6,Australia,3.0,6,2,1989,1,,,,,,,
+2,HP Tillakaratne,0,bowled,6,India,2.0,6,3,1990,1,,,,,,,
+3,HP Tillakaratne,55,caught,7,India,15.25,61,4,1990,1,,,,,,,
+4,HP Tillakaratne,21,caught,2,New Zealand,16.4,82,5,1991,1,,,,,,,
+5,HP Tillakaratne,12,caught,5,New Zealand,15.67,94,6,1991,1,,,,,,,
+6,HP Tillakaratne,26,caught,6,New Zealand,17.14,120,7,1991,1,,,,,,,
+7,HP Tillakaratne,31,lbw,6,New Zealand,18.88,151,8,1991,1,,,,,,,
+8,HP Tillakaratne,3,caught,6,New Zealand,17.11,154,9,1991,1,,,,,,,
+9,HP Tillakaratne,20,caught,7,England,17.4,174,10,1991,1,17.4,,,,,,
+10,HP Tillakaratne,16,bowled,7,England,17.27,190,11,1991,1,19.0,,,,,,
+11,HP Tillakaratne,49,caught,7,Pakistan,19.92,239,12,1991,1,23.3,,,,,,
+12,HP Tillakaratne,42,not out,7,Pakistan,23.42,281,12,1991,0,30.56,,,,,,
+13,HP Tillakaratne,11,caught,7,Pakistan,22.46,292,13,1992,1,25.67,,,,,,
+14,HP Tillakaratne,14,caught,7,Pakistan,21.86,306,14,1992,1,24.89,,,,,,
+15,HP Tillakaratne,82,caught,5,Australia,25.87,388,15,1992,1,32.67,,,,,,
+16,HP Tillakaratne,1,bowled,5,New Zealand,24.31,389,16,1992,1,29.89,,,,,,
+17,HP Tillakaratne,93,caught,6,New Zealand,28.35,482,17,1992,1,36.78,,,,,,
+18,HP Tillakaratne,93,not out,6,England,33.82,575,17,1993,0,52.62,,,,,,
+19,HP Tillakaratne,36,not out,6,England,35.94,611,17,1993,0,62.43,35.94,,,,,
+20,HP Tillakaratne,28,caught,6,India,35.5,639,18,1993,1,64.14,37.59,,,,,
+21,HP Tillakaratne,2,caught,6,India,33.74,641,19,1993,1,57.43,37.35,,,,,
+22,HP Tillakaratne,51,bowled,6,India,34.6,692,20,1993,1,51.38,40.35,,,,,
+23,HP Tillakaratne,86,caught,6,India,37.05,778,21,1993,1,60.75,42.18,,,,,
+24,HP Tillakaratne,92,lbw,6,South Africa,39.55,870,22,1993,1,70.5,46.35,,,,,
+25,HP Tillakaratne,33,not out,7,South Africa,41.05,903,22,1993,0,73.57,50.56,,,,,
+26,HP Tillakaratne,9,caught,3,South Africa,39.65,912,23,1993,1,74.71,49.5,,,,,
+27,HP Tillakaratne,9,caught,3,South Africa,38.38,921,24,1993,1,62.71,48.12,,,,,
+28,HP Tillakaratne,37,caught,6,South Africa,38.32,958,25,1993,1,47.88,50.25,,,,,
+29,HP Tillakaratne,0,caught,3,West Indies,36.85,958,26,1993,1,38.56,49.0,36.85,,,,
+30,HP Tillakaratne,9,not out,3,West Indies,37.19,967,26,1993,0,41.0,51.8,38.68,,,,
+31,HP Tillakaratne,7,caught,3,India,36.07,974,27,1994,1,41.62,49.0,38.72,,,,
+32,HP Tillakaratne,47,caught,3,India,36.46,1021,28,1994,1,41.12,46.25,40.6,,,,
+33,HP Tillakaratne,0,caught,7,India,35.21,1021,29,1994,1,30.38,45.56,38.4,,,,
+34,HP Tillakaratne,80,caught,3,India,36.7,1101,30,1994,1,28.88,49.69,40.76,,,,
+35,HP Tillakaratne,5,caught,3,India,35.68,1106,31,1994,1,22.56,44.88,40.48,,,,
+36,HP Tillakaratne,40,caught,3,India,35.81,1146,32,1994,1,26.0,47.31,41.04,,,,
+37,HP Tillakaratne,34,lbw,6,Pakistan,35.76,1180,33,1994,1,28.78,43.62,41.16,,,,
+38,HP Tillakaratne,8,caught,5,Pakistan,34.94,1188,34,1994,1,25.56,36.06,41.36,,,,
+39,HP Tillakaratne,9,bowled,6,Pakistan,34.2,1197,35,1994,1,26.56,32.56,40.92,34.2,,,
+40,HP Tillakaratne,83,not out,7,Pakistan,36.57,1280,35,1994,0,34.78,37.71,45.42,37.65,,,
+41,HP Tillakaratne,1,caught,6,Zimbabwe,35.58,1281,36,1994,1,34.11,37.65,43.42,37.5,,,
+42,HP Tillakaratne,1,caught,6,Zimbabwe,34.65,1282,37,1994,1,29.0,34.71,40.04,37.53,,,
+43,HP Tillakaratne,15,not out,6,Zimbabwe,35.05,1297,37,1994,0,34.5,32.44,41.88,37.45,,,
+44,HP Tillakaratne,116,caught,4,Zimbabwe,37.18,1413,38,1994,1,39.0,33.94,46.12,40.33,,,
+45,HP Tillakaratne,9,lbw,5,New Zealand,36.46,1422,39,1995,1,39.5,30.53,43.08,40.24,,,
+46,HP Tillakaratne,74,caught,5,New Zealand,37.4,1496,40,1995,1,43.75,34.35,46.12,41.7,,,
+47,HP Tillakaratne,36,caught,6,New Zealand,37.37,1532,41,1995,1,44.0,35.94,43.75,41.85,,,
+48,HP Tillakaratne,108,caught,5,New Zealand,39.05,1640,42,1995,1,56.5,40.12,42.6,45.03,,,
+49,HP Tillakaratne,44,not out,6,Pakistan,40.1,1684,42,1995,0,69.57,45.38,42.92,47.19,40.1,,
+50,HP Tillakaratne,48,caught,6,Pakistan,40.28,1732,43,1995,1,56.5,45.0,43.72,48.19,41.24,,
+51,HP Tillakaratne,115,caught,6,Pakistan,41.98,1847,44,1995,1,70.75,51.35,48.24,50.25,43.83,,
+52,HP Tillakaratne,0,lbw,5,Pakistan,41.04,1847,45,1995,1,70.62,48.59,46.2,47.45,43.83,,
+53,HP Tillakaratne,24,caught,6,Pakistan,40.67,1871,46,1995,1,63.78,50.0,43.72,47.85,43.1,,
+54,HP Tillakaratne,50,bowled,7,Pakistan,40.87,1921,47,1995,1,56.44,48.24,42.04,48.94,43.79,,
+55,HP Tillakaratne,6,lbw,6,Australia,40.15,1927,48,1995,1,56.11,48.29,39.38,46.64,43.64,,
+56,HP Tillakaratne,119,caught,6,Australia,41.76,2046,49,1995,1,61.11,52.94,43.62,50.21,45.86,,
+57,HP Tillakaratne,14,caught,6,Australia,41.2,2060,50,1995,1,58.67,51.76,43.81,47.82,45.45,,
+58,HP Tillakaratne,38,caught,6,Australia,41.14,2098,51,1995,1,50.89,53.53,43.85,44.79,46.29,,
+59,HP Tillakaratne,65,caught,6,Australia,41.6,2163,52,1996,1,47.9,56.82,46.35,44.34,47.36,,
+60,HP Tillakaratne,3,caught,6,Australia,40.87,2166,53,1996,1,43.4,49.22,44.41,43.63,47.05,,
+61,HP Tillakaratne,20,caught,5,Zimbabwe,40.48,2186,54,1996,1,33.9,50.28,44.89,44.14,46.36,,
+62,HP Tillakaratne,126,not out,6,Zimbabwe,42.81,2312,54,1996,0,51.67,60.59,49.65,47.65,48.36,,
+63,HP Tillakaratne,55,not out,6,New Zealand,43.83,2367,54,1997,0,62.0,62.94,53.84,48.15,50.61,,
+64,HP Tillakaratne,8,run out,6,New Zealand,43.18,2375,55,1997,1,56.75,56.59,50.96,45.61,50.46,,
+65,HP Tillakaratne,2,caught,3,New Zealand,42.45,2377,56,1997,1,56.25,56.18,50.84,43.35,48.51,,
+66,HP Tillakaratne,10,bowled,3,New Zealand,41.88,2387,57,1997,1,42.62,52.41,49.64,43.38,48.73,,
+67,HP Tillakaratne,103,caught,6,Pakistan,42.93,2490,58,1997,1,53.75,56.35,52.4,46.15,48.98,,
+68,HP Tillakaratne,54,caught,5,Pakistan,43.12,2544,59,1997,1,55.75,53.18,54.24,46.65,46.88,,
+69,HP Tillakaratne,10,bowled,6,Pakistan,42.57,2554,60,1997,1,48.88,48.33,54.28,46.94,45.19,42.57,
+70,HP Tillakaratne,24,not out,6,Pakistan,42.97,2578,60,1997,0,58.86,49.76,51.92,47.38,46.17,43.69,
+71,HP Tillakaratne,1,not out,6,West Indies,42.98,2579,60,1997,0,65.5,45.75,54.08,48.64,47.27,44.36,
+72,HP Tillakaratne,14,caught,6,India,42.51,2593,61,1997,1,40.14,46.62,54.62,47.64,46.37,44.6,
+73,HP Tillakaratne,9,caught,6,India,41.97,2602,62,1997,1,29.38,45.69,52.2,47.91,44.49,43.81,
+74,HP Tillakaratne,25,lbw,7,India,41.7,2627,63,1997,1,31.5,44.12,48.56,46.24,42.85,43.88,
+75,HP Tillakaratne,18,not out,7,India,41.98,2645,63,1997,0,38.29,47.87,50.96,48.09,42.49,44.75,
+76,HP Tillakaratne,44,caught,6,Zimbabwe,42.02,2689,64,1998,1,43.14,42.87,49.71,48.22,43.34,45.07,
+77,HP Tillakaratne,7,caught,6,Zimbabwe,41.48,2696,65,1998,1,29.43,42.4,48.5,47.38,43.29,44.65,
+78,HP Tillakaratne,0,lbw,5,Zimbabwe,40.85,2696,66,1998,1,21.71,39.87,44.0,47.12,42.39,44.6,
+79,HP Tillakaratne,22,caught,6,South Africa,40.57,2718,67,1998,1,23.43,37.0,41.36,47.53,42.93,44.63,
+80,HP Tillakaratne,13,lbw,6,South Africa,40.16,2731,68,1998,1,19.12,37.67,39.96,43.97,42.0,44.58,
+81,HP Tillakaratne,55,caught,6,South Africa,40.38,2786,69,1998,1,23.0,40.0,37.56,45.61,43.14,44.68,
+82,HP Tillakaratne,0,caught,6,South Africa,39.8,2786,70,1998,1,21.44,29.62,37.56,45.58,42.02,43.19,
+83,HP Tillakaratne,10,bowled,6,New Zealand,39.38,2796,71,1998,1,21.56,25.24,37.0,44.09,42.26,43.17,
+84,HP Tillakaratne,43,caught,6,New Zealand,39.43,2839,72,1998,1,23.56,27.29,36.72,41.94,41.38,43.67,
+85,HP Tillakaratne,40,bowled,6,New Zealand,39.44,2879,73,1998,1,23.4,29.53,38.08,42.85,42.21,42.95,
+86,HP Tillakaratne,0,lbw,6,England,38.91,2879,74,1998,1,19.0,28.94,33.32,40.68,41.26,42.93,
+87,HP Tillakaratne,14,stumped,7,India,38.57,2893,75,1999,1,19.7,23.71,33.32,40.03,40.79,41.57,
+88,HP Tillakaratne,9,bowled,5,Pakistan,38.18,2902,76,1999,1,20.6,21.06,32.16,37.12,40.81,39.44,
+89,HP Tillakaratne,15,caught,6,Pakistan,37.88,2917,77,1999,1,19.9,21.35,30.16,35.23,40.95,38.43,
+90,HP Tillakaratne,55,not out,7,Pakistan,38.6,2972,77,1999,0,26.78,23.18,33.58,36.47,40.29,39.54,
+91,HP Tillakaratne,11,lbw,6,India,38.24,2983,78,2001,1,21.89,22.44,33.21,33.41,40.52,39.69,
+92,HP Tillakaratne,10,caught,6,India,37.89,2993,79,2001,1,23.0,22.22,27.24,33.71,40.74,39.0,
+93,HP Tillakaratne,16,lbw,5,India,37.61,3009,80,2001,1,23.67,22.61,24.69,33.47,39.81,37.81,
+94,HP Tillakaratne,136,not out,7,India,39.31,3145,80,2001,0,38.25,30.47,30.8,37.09,41.24,39.22,
+95,HP Tillakaratne,10,not out,6,Bangladesh,39.44,3155,80,2001,0,39.43,30.0,32.42,38.38,42.27,38.83,
+96,HP Tillakaratne,105,not out,6,West Indies,40.75,3260,80,2001,0,63.5,35.69,37.96,39.16,44.1,41.19,
+97,HP Tillakaratne,87,bowled,6,West Indies,41.32,3347,81,2001,1,75.67,40.69,37.26,41.52,45.38,42.56,
+98,HP Tillakaratne,7,not out,6,West Indies,41.41,3354,81,2001,0,90.4,43.87,36.82,41.87,43.95,42.79,
+99,HP Tillakaratne,204,not out,6,West Indies,43.93,3558,81,2001,0,160.25,60.0,47.81,48.1,48.05,47.27,43.93
+100,HP Tillakaratne,96,caught,6,Zimbabwe,44.56,3654,82,2001,1,136.4,65.93,48.91,51.31,49.28,47.98,45.11
+101,HP Tillakaratne,37,lbw,6,Zimbabwe,44.47,3691,83,2002,1,141.6,64.64,48.35,51.9,47.28,48.52,45.49
+102,HP Tillakaratne,3,caught,6,Zimbabwe,43.98,3694,84,2002,1,140.2,64.86,47.87,46.07,47.36,47.73,45.53
+103,HP Tillakaratne,19,not out,7,Pakistan,44.2,3713,84,2002,0,176.0,70.54,50.5,44.87,48.47,48.95,45.65
+104,HP Tillakaratne,17,not out,7,England,44.4,3730,84,2002,0,146.25,74.25,52.52,46.72,48.89,48.69,46.18
+105,HP Tillakaratne,20,lbw,6,England,44.12,3750,85,2002,1,119.0,72.58,50.23,47.34,49.27,48.96,46.28
+106,HP Tillakaratne,39,bowled,6,England,44.06,3789,86,2002,1,88.17,75.83,50.0,48.34,47.11,48.94,46.44
+107,HP Tillakaratne,20,caught,7,England,43.78,3809,87,2002,1,77.0,76.33,50.59,45.48,47.27,48.69,46.3
+108,HP Tillakaratne,32,not out,6,England,44.15,3841,87,2002,0,81.17,85.36,54.52,46.32,48.42,50.06,47.27
+109,HP Tillakaratne,18,caught,4,Bangladesh,43.85,3859,88,2002,1,43.0,85.64,54.33,46.61,47.11,50.23,47.24
+110,HP Tillakaratne,5,not out,4,Bangladesh,43.91,3864,88,2002,0,35.0,81.09,56.65,45.93,48.51,48.75,47.71
+111,HP Tillakaratne,24,run out,6,South Africa,43.69,3888,89,2002,1,32.83,82.27,55.1,45.14,48.63,49.19,47.39
+112,HP Tillakaratne,27,caught,6,South Africa,43.5,3915,90,2002,1,36.83,83.82,56.45,45.59,44.53,49.68,46.59
+113,HP Tillakaratne,104,not out,5,South Africa,44.66,4019,90,2002,0,51.0,101.0,64.37,50.61,45.89,51.36,48.4
+114,HP Tillakaratne,6,caught,5,South Africa,44.23,4025,91,2002,1,42.14,80.0,62.42,49.93,45.83,49.28,48.3
+115,HP Tillakaratne,144,bowled,6,New Zealand,45.32,4169,92,2003,1,59.86,84.5,67.89,52.55,49.78,51.83,49.1
+116,HP Tillakaratne,93,bowled,4,New Zealand,45.83,4262,93,2003,1,67.57,77.08,72.79,54.24,52.08,52.19,50.3
+117,HP Tillakaratne,13,bowled,5,West Indies,45.48,4275,94,2003,1,66.57,71.38,72.74,54.45,49.58,51.75,49.26
+118,HP Tillakaratne,13,caught,5,West Indies,45.14,4288,95,2003,1,55.88,66.71,72.95,54.9,48.44,49.96,47.6
+119,HP Tillakaratne,7,bowled,6,West Indies,44.74,4295,96,2003,1,54.5,49.13,72.53,54.38,48.36,48.35,46.63
+120,HP Tillakaratne,0,caught,5,England,44.28,4295,97,2003,1,47.89,42.73,66.15,53.93,46.41,47.46,46.28
+121,HP Tillakaratne,1,lbw,5,England,43.84,4296,98,2003,1,45.33,40.33,65.65,52.07,45.18,45.35,46.27
+122,HP Tillakaratne,45,caught,6,England,43.85,4341,99,2003,1,47.33,43.13,67.4,53.62,46.0,46.19,46.19
+123,HP Tillakaratne,20,caught,6,England,43.61,4361,100,2003,1,34.2,40.5,67.6,53.97,46.29,46.11,45.35
+124,HP Tillakaratne,12,bowled,6,England,43.3,4373,101,2003,1,34.8,37.82,58.48,52.9,45.95,45.41,44.34
+125,HP Tillakaratne,33,lbw,6,Australia,43.2,4406,102,2004,1,23.7,38.59,56.86,52.66,45.15,45.91,43.79
+126,HP Tillakaratne,25,caught,6,Australia,43.02,4431,103,2004,1,16.9,37.76,50.91,53.52,44.67,44.17,43.99
+127,HP Tillakaratne,16,caught,6,Australia,42.76,4447,104,2004,1,17.2,37.53,47.83,53.59,44.9,44.2,44.08
+128,HP Tillakaratne,7,caught,7,Australia,42.42,4454,105,2004,1,16.6,34.06,45.83,53.52,45.08,43.63,43.7
+129,HP Tillakaratne,74,not out,6,Australia,43.12,4528,105,2004,0,25.89,39.35,40.42,57.54,47.63,44.62,45.19
+130,HP Tillakaratne,17,lbw,7,Australia,42.88,4545,106,2004,1,27.78,37.83,37.12,54.24,47.74,44.89,44.72
