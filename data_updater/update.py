@@ -45,14 +45,14 @@ def update_data(download=False):
     running with download=False will recreate output csv's with the existing data"""
     d = 'batting'
     s = 'test'
+    create_player_dict(s, d)
     with open('data/batting/test/ids_names.json') as file:
         i_n = json.load(file)
-    create_player_dict(s, d)
     make_app_data(i_n, download)
     
 
 if __name__ == '__main__':
-    update_data()
+    update_data(True)
     last_updated = open(DATA_PATH.joinpath('last_updated.txt'), 'w') 
     date = datetime.datetime.now().strftime("%Y-%m-%d")
     last_updated.write(date)

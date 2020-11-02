@@ -18,8 +18,7 @@ class Batsman:
         
 
     def download_data(self):
-        """Download test match innings table from the players cricinfo batting summary page"""
-        
+        """Download test match innings table from the players cricinfo batting summary page"""        
         if self.match == 'odi':
             df = pd.read_html(f'http://stats.espncricinfo.com/ci/engine/player/{self.player_id}.html?class=2;template=results;type=batting;view=innings')
         else:
@@ -27,6 +26,7 @@ class Batsman:
         summary = df[2]
         summary['Name'] = self.name
         summary = summary[['Name', 'Span', 'Mat', 'Inns', 'Runs', 'HS', 'Ave', '50', '100']]
+        print(summary)
         summary.to_pickle(f'data/batting/{self.match}/summary/{self.name}.pkl')
         df = df[3]
         df.to_pickle(f'data/batting/{self.match}/original/{self.name}.pkl')            
@@ -34,8 +34,7 @@ class Batsman:
 
     
     def edit_data(self, df):
-        """Clean data and extract desired features."""
-        
+        """Clean data and extract desired features."""        
         #removing unwanted cols and preparing data
         df = df[['Runs', 'BF', 'Pos', 'Dismissal', 'Opposition', 'Start Date']]
         df['Name'] = self.name
@@ -50,7 +49,7 @@ class Batsman:
         df = df.reset_index()
         del df['index']
         df = df.replace({'BF': ['-']}, 0)
-        df['Runs'] = df['Runs'].str.replace(r"*",'')
+        df['Runs'] = df['Runs'].astype(str).str.replace(r"*",'')
         df[['Runs', 'BF']] = df[['Runs', 'BF']].apply(pd.to_numeric)
         df = df.replace({'Dismissal': 'retired notout'}, 'not out')
         df = df.replace({'Dismissal': ['handled ball', 'hit wicket', 'obstruct field', 'retired out']}, 'other')
