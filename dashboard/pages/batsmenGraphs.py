@@ -184,7 +184,18 @@ left_column = [
     ),
     html.Div([
             html.Div([
-                    f'All data sourced from cricinfo statsguru, last updated {update_date}'
+                   'Source code available here: ',
+                    dcc.Link(href='https://github.com/lmcluskie/dash-cricket')
+                ],
+                style={
+                    'textAlign': 'center',
+                    'font-size': '14px',
+                    'backgroundColor': colors['paper'],
+                    'fontFamily': fonts['body']
+                }
+            ),
+            html.Div([
+                    f'All data sourced from ESPNcricinfo.com\'s Statsguru. Last updated {update_date}.'
                 ],
                 style={
                     'textAlign': 'center',
