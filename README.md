@@ -2,6 +2,8 @@
 
 ## A dashboard ([hosted here](https://burningtin-cricket.herokuapp.com/)) that provides visual summaries and comparisons of the batting careers of test cricketers. 
 
+Batsmen available are the top 200 players with test match batting average > 35 when sorting by runs scored.
+
 The data_updater folder scrapes data from cricinfo then cleans it and extracts features to prepare the data set for use by the dash-cricket dashboard , which resides in the dashboard folder.
  
 Dashboard data is updated when data_updater/updater.py is run.
@@ -11,9 +13,9 @@ Dashboard data is updated when data_updater/updater.py is run.
 ### Data preparation process:
 
 * HTML extracted from the appropriately filtered cricinfo leaderboard page is parsed to provide a dictionary of cricinfo_id:player_name pairs, which is saved as a json.
-* Iterate through the cricinfo_id's in this dictionary to download the innings list table available on each players cricinfo page as a dataframe, these are stored as pkl's as each is downloaded. 
+* Cricinfo_id's in this dictionary are iterated through to download the innings list table available on each players cricinfo page as a dataframe, these are stored as pkl's as each is downloaded. 
 
-These dataframes are used to do the following for each player individually, and for the 200 players in aggregate:
+This data is used to do the following for each player individually, and for the 200 players in aggregate:
 
 * Rolling averages, average by opposition, and style of dismissal proportions are calculated.
 * Dismissals are viewed as observed events for the purpose of performing survival analysis. An event table is made showing how many innings were ongoing and how many dismissals or censored events (not outs) occurred at each score.
