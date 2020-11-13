@@ -2,7 +2,7 @@
 
 ## A dashboard ([hosted here](https://burningtin-cricket.herokuapp.com/)) that provides visual summaries and comparisons of the batting careers of test cricketers. 
 
-Batsmen available are the top 200 players with test match batting average > 35 when sorting by runs scored.
+Batsmen available are the 200 highest run scorers with batting average > 35 in test cricket.
 
 The data_updater folder scrapes data from cricinfo then cleans it and extracts features to prepare the data set for use by the dash-cricket dashboard , which resides in the dashboard folder.
  
