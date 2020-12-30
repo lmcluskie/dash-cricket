@@ -4,9 +4,8 @@ import pandas as pd
 import datetime
 import pathlib
 import json
-from player_dict import create_player_dict
 from player import Batsman
-
+from player_dict import create_player_dict
 
 pd.options.mode.chained_assignment = None
 DATA_PATH = pathlib.Path(__file__).parent.joinpath("../dashboard/data").resolve()
