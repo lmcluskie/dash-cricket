@@ -494,6 +494,8 @@ def update_km_line_graph(first_player, second_player, dummy):
 def update_rolling_line_graph(first_player, second_player, length):
     df1 = df_main[df_main['Name'] == first_player]
     df2 = df_main[df_main['Name'] == second_player]
+    career_ave_1 = [df1['Ave'].iloc[-1]] if len(df1)>0 else [None]
+    career_ave_2 = [df2['Ave'].iloc[-1]] if len(df2)>0 else [None]
     most_innings = max(len(df1),len(df2))
     return {
         'data': [
@@ -506,7 +508,7 @@ def update_rolling_line_graph(first_player, second_player, length):
             ),
             go.Scatter(
                 x=list(range(most_innings)),
-                y=[df1['Ave'].iloc[-1]]*most_innings,
+                y=career_ave_1*most_innings,
                 mode='lines',
                 line={'color': line_colors[3]},
                 name=f'OVR {first_player}'
@@ -521,7 +523,7 @@ def update_rolling_line_graph(first_player, second_player, length):
             ),
             go.Scatter(
                 x=list(range(most_innings)),
-                y=[df2['Ave'].iloc[-1]]*most_innings,
+                y=career_ave_2*most_innings,
                 mode='lines',
                 line={'color': line_colors[4]},
                 name=f'OVR {second_player}'
