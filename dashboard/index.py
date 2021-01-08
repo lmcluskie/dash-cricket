@@ -31,10 +31,9 @@ app.layout = html.Div([
                         'fontFamily': fonts['title'],
                         'position': 'relative',
                         'top': '-100px',
-                        'left': '10%'
+                        'left': '20%'
                     }
                 ),
-
                 html.Div([
                         html.Div([
                             dcc.Dropdown(
@@ -44,10 +43,11 @@ app.layout = html.Div([
                             )
                         ],
                             style={
-                                'width': '300px',
+                                'width': '170px',
                                 'display': 'inline-block',
                                 'position': 'relative',
-                                'top': '-20px'
+                                'top': '-20px',
+                                'font-size': '12px',
                             }
                         ),
                         html.Div([
@@ -58,10 +58,11 @@ app.layout = html.Div([
                             )
                         ],
                             style={
-                                'width': '300px',
+                                'width': '170px',
                                 'display': 'inline-block',
                                 'position': 'relative',
-                                'top': '-20px'
+                                'top': '-20px',
+                                'font-size': '12px',
                             }
                         ),
                     ],
@@ -71,7 +72,7 @@ app.layout = html.Div([
                         'fontFamily': fonts['body'],
                         'position': 'relative',
                         'top': '-90px',
-                        'left': '10%'
+                        'left': '20%'
                     }
                 )
             ]

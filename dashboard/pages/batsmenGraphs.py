@@ -47,7 +47,7 @@ right_column = [
         }
     ),
     html.Div([
-            'Rolling Period Length: ',
+            'Rolling Avg Inns: ',
             html.Div(
                 children=[
                     dcc.Dropdown(
@@ -73,6 +73,7 @@ right_column = [
             'textIndent': '10%',
             'color': colors['text'],
             'fontFamily': fonts['body'],
+            'font-size':'12px',
             'position': 'relative',
             'top':'-60px',
             'left': '25%'
@@ -285,7 +286,8 @@ def update_summary_table(first_player, second_player):
             style_as_list_view=True,
             style_header={
                 'backgroundColor': colors['paper'],
-                'color': colors['text']
+                'color': colors['text'],
+                'textAlign': 'center'
             },
             style_cell_conditional=column_widths        
         ),
@@ -300,7 +302,8 @@ def update_summary_table(first_player, second_player):
             style_as_list_view=True,
             style_header={
                 'backgroundColor': line_colors[0],
-                'color': colors['text']
+                'color': colors['text'],
+                'textAlign': 'center', 
             },
             style_cell_conditional=column_widths        
         ),
@@ -315,7 +318,8 @@ def update_summary_table(first_player, second_player):
             style_as_list_view=True,
             style_header={
                 'backgroundColor': line_colors[1],
-                'color': colors['text']
+                'color': colors['text'],
+                'textAlign': 'center'
             },
             style_cell_conditional=column_widths        
         )        
