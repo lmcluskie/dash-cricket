@@ -1,6 +1,6 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- hostname: web03, edition-view: , country: unknown, cluster: www, created: 2021-03-06 04:12:13 -->
+<!-- hostname: web01, edition-view: , country: unknown, cluster: www, created: 2021-03-19 20:44:23 -->
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/" >
 <head>
  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
@@ -15,7 +15,7 @@
 function fnCreateJumpList(iScenario) {
 fnClearJumpList();
 window.external.msSiteModeCreateJumpList("Quick Links")
-window.external.msSiteModeAddJumpListItem('CWC Challenge League B', 'https://www.espncricinfo.com/ci/content/current/series/1207049.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('CWC Challenge League A', 'https://www.espncricinfo.com/ci/content/current/series/1200432.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('World Cup Super League', 'https://www.espncricinfo.com/ci/content/current/series/1227837.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('World Test Championship', 'https://www.espncricinfo.com/ci/content/current/series/1195334.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('Women's Championship', 'https://www.espncricinfo.com/ci/content/current/series/1122932.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('IPL 2021', 'https://www.espncricinfo.com/series/ipl-2021-1249214/content/current/series/1249214.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('Women's Hundred', 'https://www.espncricinfo.com/ci/content/current/series/1252659.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('The Hundred', 'https://www.espncricinfo.com/ci/content/current/series/1252040.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('The Ford Trophy', 'https://www.espncricinfo.com/ci/content/current/series/1234905.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('Sheffield Shield', 'https://www.espncricinfo.com/ci/content/current/series/1233442.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('The Marsh Cup', 'https://www.espncricinfo.com/ci/content/current/series/1244113.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('Momentum One Day', 'https://www.espncricinfo.com/ci/content/current/series/1235219.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('CSA One-Day', 'https://www.espncricinfo.com/ci/content/current/series/1235221.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('Vijay Hazare Trophy', 'https://www.espncricinfo.com/ci/content/current/series/1250891.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('CSA T20 Challenge', 'https://www.espncricinfo.com/ci/content/current/series/1235223.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('NZ-W v AUS-W', 'https://www.espncricinfo.com/ci/content/current/series/1249224.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('NZ-W v ENG-W', 'https://www.espncricinfo.com/ci/content/current/series/1249221.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('IND-W v SA-W', 'https://www.espncricinfo.com/ci/content/current/series/1253264.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('Afghanistan v Zimbabwe', 'https://www.espncricinfo.com/ci/content/current/series/1252053.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('New Zealand v Bangladesh', 'https://www.espncricinfo.com/ci/content/current/series/1233967.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('West Indies v Sri Lanka', 'https://www.espncricinfo.com/ci/content/current/series/1252062.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('New Zealand v Australia', 'https://www.espncricinfo.com/series/australia-in-new-zealand-2020-21-1233965/content/current/series/1233965.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('PSL 2021', 'https://www.espncricinfo.com/ci/content/current/series/1238103.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('India v England', 'https://www.espncricinfo.com/series/england-tour-of-india-2020-21-1243364/content/current/series/1243364.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeShowJumpList();
+window.external.msSiteModeAddJumpListItem('CWC Challenge League B', 'https://www.espncricinfo.com/ci/content/current/series/1207049.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('CWC Challenge League A', 'https://www.espncricinfo.com/ci/content/current/series/1200432.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('World Cup Super League', 'https://www.espncricinfo.com/ci/content/current/series/1227837.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('World Test Championship', 'https://www.espncricinfo.com/ci/content/current/series/1195334.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('Women's Championship', 'https://www.espncricinfo.com/ci/content/current/series/1122932.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('Women's Hundred', 'https://www.espncricinfo.com/ci/content/current/series/1252659.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('The Hundred', 'https://www.espncricinfo.com/ci/content/current/series/1252040.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('Sheffield Shield', 'https://www.espncricinfo.com/ci/content/current/series/1233442.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('The Marsh Cup', 'https://www.espncricinfo.com/ci/content/current/series/1244113.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('Momentum One Day', 'https://www.espncricinfo.com/ci/content/current/series/1235219.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('CSA One-Day', 'https://www.espncricinfo.com/ci/content/current/series/1235221.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('Road Safety Series', 'https://www.espncricinfo.com/ci/content/current/series/1217118.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('NZ-W v AUS-W', 'https://www.espncricinfo.com/ci/content/current/series/1249224.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('IND-W v SA-W', 'https://www.espncricinfo.com/ci/content/current/series/1253264.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('Afghanistan v Zimbabwe', 'https://www.espncricinfo.com/ci/content/current/series/1252053.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('New Zealand v Bangladesh', 'https://www.espncricinfo.com/ci/content/current/series/1233967.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('West Indies v Sri Lanka', 'https://www.espncricinfo.com/ci/content/current/series/1252062.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('India v England', 'https://www.espncricinfo.com/series/england-tour-of-india-2020-21-1243364/content/current/series/1243364.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeAddJumpListItem('IPL 2021', 'https://www.espncricinfo.com/series/ipl-2021-1249214/content/current/series/1249214.html', 'https://a.espncdn.com/espncricinfo/favicon.ico');window.external.msSiteModeShowJumpList();
 }
 function fnClearJumpList() {
 window.external.msSiteModeClearJumplist();
@@ -51,9 +51,34 @@ window.external.msSiteModeClearJumplist();
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://a.espncdn.com/wireless/mw5/r1/images/bookmark-icons/espncricinfo_icon-114x114.min.png">
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://a.espncdn.com/wireless/mw5/r1/images/bookmark-icons/espncricinfo_icon-152x152.min.png">
 
+<script language="javascript"  type="text/javascript">
+    let isApp = false;
+    if (window.CleverTap) {
+        isApp = true;
+    } else if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.clevertap) {
+        isApp = true;
+    }
 
-    <script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
+    window.injectScript = function(src, opts) {
+        (function() {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.async = false;
+        script.src = src;
+        if(opts && typeof opts.id !== "undefined") script.id = opts.id;
+        if(opts && typeof opts.async !== "undefined") script.async = opts.async;
+        if(opts && typeof opts.defer !== "undefined") script.defer = opts.defer;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(script, s);
+        })();
+    };
 
+    if (!isApp) {
+        
+            window.injectScript('https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js');
+        
+    }
+</script>
 
 <meta property="fb:app_id" content="260890547115" />
 <meta property="og:site_name" content="Cricinfo" />
@@ -91,8 +116,8 @@ window.external.msSiteModeClearJumplist();
 <link rel="stylesheet" href="https://a.espncdn.com/players/web-player-bundle/3.2.13/espn-web-player-bundle.css" />
 <!-- VOD Shim starts -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js" integrity="sha512-ew6biq+ZLL9Oatatxp3TMwzqfYWjPNVj555KxiE2mV5Sc2/1Z5SOWSbViBH+KXU788ESsXDa5m0cgRKTBqO44w==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA==" crossorigin="anonymous"></script>
+<script src="https://i.imgci.com/navigation/cricinfo/ci/assets/js/plugins/jquery-2.0.2.min.js"></script>
+<script src="https://i.imgci.com/navigation/cricinfo/ci/assets/js/plugins/jquery.cookie-1.4.1.js"></script>
 <script src="https://a.espncdn.com/players/web-player-bundle/3.2.38/espn-web-player-bundle.js"></script>
 <script src="https://i.imgci.com/navigation/cricinfo/ci/videoplayer/dtciplayer.js"></script>
 <!-- VOD Shim ends -->
@@ -241,11 +266,11 @@ pre.gpt-debug{padding: 10px; background: burlywood;}
 									<ul class="sub_nav" data-role="none">
 
 										<li class="sub_nav_item">
-											<a href="/series/england-tour-of-india-2020-21-1243364" name="&lpos=header_series">India v England</a>
+											<a href="/series/ipl-2021-1249214" name="&lpos=header_series">IPL 2021</a>
 										</li>
 
 										<li class="sub_nav_item">
-											<a href="/series/australia-in-new-zealand-2020-21-1233965" name="&lpos=header_series">New Zealand v Australia</a>
+											<a href="/series/england-tour-of-india-2020-21-1243364" name="&lpos=header_series">India v England</a>
 										</li>
 
 										<li class="sub_nav_item">
@@ -261,11 +286,11 @@ pre.gpt-debug{padding: 10px; background: burlywood;}
 										</li>
 
 										<li class="sub_nav_item">
-											<a href="/series/south-africa-women-tour-of-india-2020-21-1253264" name="&lpos=header_series">IND-W v SA-W</a>
+											<a href="/series/road-safety-world-series-2019-20-2020-21-1217118" name="&lpos=header_series">Road Safety Series</a>
 										</li>
 
 										<li class="sub_nav_item">
-											<a href="/series/england-women-in-new-zealand-2020-21-1249221" name="&lpos=header_series">NZ-W v ENG-W</a>
+											<a href="/series/south-africa-women-tour-of-india-2020-21-1253264" name="&lpos=header_series">IND-W v SA-W</a>
 										</li>
 
 										<li class="sub_nav_item">
@@ -277,15 +302,7 @@ pre.gpt-debug{padding: 10px; background: burlywood;}
 										</li>
 
 										<li class="sub_nav_item">
-											<a href="/series/psl-2020-21-1238103" name="&lpos=header_series">PSL</a>
-										</li>
-
-										<li class="sub_nav_item">
 											<a href="/series/vijay-hazare-trophy-2020-21-1250891" name="&lpos=header_series">Vijay Hazare Trophy</a>
-										</li>
-
-										<li class="sub_nav_item">
-											<a href="/series/csa-t20-challenge-2020-21-1235223" name="&lpos=header_series">T20 Challenge</a>
 										</li>
 
 										<li class="sub_nav_item">
@@ -298,10 +315,6 @@ pre.gpt-debug{padding: 10px; background: burlywood;}
 
 										<li class="sub_nav_item">
 											<a href="/series/super50-cup-2020-21-1249420" name="&lpos=header_series">Super50 Cup</a>
-										</li>
-
-										<li class="sub_nav_item">
-											<a href="/series/the-ford-trophy-2020-21-1234905" name="&lpos=header_series">Ford Trophy</a>
 										</li>
 
 										<li class="sub_nav_item">
@@ -523,7 +536,7 @@ pre.gpt-debug{padding: 10px; background: burlywood;}
 
 							<li class="nav_grpitm nav_videos">
 								
-								<a href="https://www.espncricinfo.com/ci/content/video_audio/index.html" name="&lpos=header_videos">Videos</a>
+								<a href="/video" name="&lpos=header_videos">Videos</a>
 
 								<div class="nav_grp_lvl1 main_nav_options dd_wrap">
 
@@ -534,63 +547,71 @@ pre.gpt-debug{padding: 10px; background: burlywood;}
 											<ul class="sub_nav" data-role="none">
 
 												<li class="sub_nav_item">
-													<a href="https://www.espncricinfo.com/ci/content/video_audio/index.html" name="&lpos=header_videos">Videos Home</a>
+													<a href="/video" name="&lpos=header_videos">Videos Home</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=37" name="&lpos=header_videos">Highlights</a>
+													<a href="/video/genre/smart-player-of-the-match-177" name="&lpos=header_videos">Smart Player</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=85" name="&lpos=header_videos">Fantasy Pick</a>
+													<a href="/video/genre/highlights-37" name="&lpos=header_videos">Highlights</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=119" name="&lpos=header_videos">POLITE ENQUIRIES</a>
+													<a href="/video/genre/match-day-155" name="&lpos=header_videos">Matchday</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=166" name="&lpos=header_videos">Run Order</a>
+													<a href="/video/genre/sahi-hai-decisions-229" name="&lpos=header_videos">Sahi Hai Decisions</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=48" name="&lpos=header_videos">The Chatter</a>
+													<a href="/video/genre/fantasy-pick-85" name="&lpos=header_videos">Fantasy Pick</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=218" name="&lpos=header_videos">Newsroom</a>
+													<a href="/video/genre/politeenquiries-119" name="&lpos=header_videos">POLITE ENQUIRIES</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=191" name="&lpos=header_videos">25 Questions</a>
+													<a href="/video/genre/run-order-166" name="&lpos=header_videos">Run Order</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=200" name="&lpos=header_videos">Hindi Videos</a>
+													<a href="/video/genre/the-chatter-48" name="&lpos=header_videos">The Chatter</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=34" name="&lpos=header_videos">News and Analysis</a>
+													<a href="/video/genre/newsroom-218" name="&lpos=header_videos">Newsroom</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=1" name="&lpos=header_videos">Match Analysis</a>
+													<a href="/video/genre/25-questions-191" name="&lpos=header_videos">25 Questions</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=9" name="&lpos=header_videos">Interviews</a>
+													<a href="/video/genre/hindi-200" name="&lpos=header_videos">Hindi Videos</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=46" name="&lpos=header_videos">Features</a>
+													<a href="/video/genre/news-and-analysis-34" name="&lpos=header_videos">News and Analysis</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=155" name="&lpos=header_videos">Matchday</a>
+													<a href="/video/genre/match-analysis-1" name="&lpos=header_videos">Match Analysis</a>
 												</li>
 
 												<li class="sub_nav_item">
-													<a href="/ci/content/video_audio/index.html?genre=2" name="&lpos=header_videos">Press Conference</a>
+													<a href="/video/genre/interviews-9" name="&lpos=header_videos">Interviews</a>
+												</li>
+
+												<li class="sub_nav_item">
+													<a href="/video/genre/features-46" name="&lpos=header_videos">Features</a>
+												</li>
+
+												<li class="sub_nav_item">
+													<a href="/video/genre/press-conference-2" name="&lpos=header_videos">Press Conference</a>
 												</li>
 
 												<li class="sub_nav_item">
@@ -782,7 +803,7 @@ pre.gpt-debug{padding: 10px; background: burlywood;}
    </ul>
 </nav>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js" integrity="sha512-ew6biq+ZLL9Oatatxp3TMwzqfYWjPNVj555KxiE2mV5Sc2/1Z5SOWSbViBH+KXU788ESsXDa5m0cgRKTBqO44w==" crossorigin="anonymous"></script>
+<script src="https://i.imgci.com/navigation/cricinfo/ci/assets/js/plugins/jquery-2.0.2.min.js"></script>
 <script src="https://i.imgci.com/navigation/cricinfo/ci/assets/js/plugins/jquery.cookie-1.4.1.js"></script>
 <script>
 $(document).ready(function() {
@@ -1255,7 +1276,7 @@ Statistics / Statsguru / Test matches / Batting records
  <tr class="data2">
   <td class="left">
    <b>View</b>&nbsp;overall figures
-[<a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd-view', event); window.status='change view'; return true">change view</a>]
+[<a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd-view', event); window.status='change view'; return true" onmouseout="menuLayers.hide()">change view</a>]
 
   </td>
  </tr>
@@ -1277,7 +1298,7 @@ Statistics / Statsguru / Test matches / Batting records
    Page <b>1</b> of <b>4</b>
   </td>
   <td class="left" style="vertical-align:middle">
-   Showing <b>1</b> - <b>200</b> of <b>699</b>
+   Showing <b>1</b> - <b>200</b> of <b>701</b>
   </td>
   <td class="left" style="vertical-align:middle">
   <td class="left" style="vertical-align:middle">
@@ -1299,16 +1320,16 @@ Statistics / Statsguru / Test matches / Batting records
 <thead>
  <tr class="headlinks">
   <th class="left" nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=player;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" title="sort by player name" class="black-link">Player</a></th>
-  <th class="left" nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=start;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" title="sort by start date" class="black-link">Span</a></th>
-  <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=matches;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" title="sort by matches played" class="black-link">Mat</a></th>
+  <th class="left" nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=start;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" class="black-link" title="sort by start date">Span</a></th>
+  <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=matches;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" class="black-link" title="sort by matches played">Mat</a></th>
   <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=innings;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" class="black-link" title="sort by innings batted">Inns</a></th>
-  <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=notouts;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" class="black-link" title="sort by not outs">NO</a></th>
-  <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;orderbyad=reverse;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" title="sort by runs scored" class="black-link">Runs<img src="http://i.imgci.com/espncricinfo/blackArrowDown.gif" width="10" height="10" border=0 alt="Descending" style="vertical-align: middle;"></a></th>
+  <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=notouts;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" title="sort by not outs" class="black-link">NO</a></th>
+  <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;orderbyad=reverse;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" class="black-link" title="sort by runs scored">Runs<img src="http://i.imgci.com/espncricinfo/blackArrowDown.gif" width="10" height="10" border=0 alt="Descending" style="vertical-align: middle;"></a></th>
   <th class="padAst" nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=high_score;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" class="black-link" title="sort by highest innings score">HS</a></th>
   <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=batting_average;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" title="sort by batting average" class="black-link">Ave</a></th>
-  <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=hundreds;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" title="sort by hundreds scored" class="black-link">100</a></th>
-  <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=fifty_plus;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" class="black-link" title="sort by scores of fifty or more">50</a></th>
-  <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=ducks;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" class="black-link" title="sort by ducks scored">0</a></th>
+  <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=hundreds;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" class="black-link" title="sort by hundreds scored">100</a></th>
+  <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=fifty_plus;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" title="sort by scores of fifty or more" class="black-link">50</a></th>
+  <th nowrap=""><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=ducks;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting" title="sort by ducks scored" class="black-link">0</a></th>
   <th></th>
  </tr>
 </thead>
@@ -1325,7 +1346,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>51</td>
   <td>68</td>
   <td>14</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd1', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd1', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/7133.html" class="data-link">RT Ponting</a> (AUS)</td>
@@ -1353,7 +1374,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>45</td>
   <td>58</td>
   <td>16</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd3', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd3', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/28114.html" class="data-link">R Dravid</a> (ICC/INDIA)</td>
@@ -1381,7 +1402,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>33</td>
   <td>57</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd5', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd5', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/50710.html" class="data-link">KC Sangakkara</a> (SL)</td>
@@ -1409,7 +1430,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>34</td>
   <td>48</td>
   <td>17</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd7', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd7', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/51469.html" class="data-link">S Chanderpaul</a> (WI)</td>
@@ -1423,7 +1444,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>30</td>
   <td>66</td>
   <td>15</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd8', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd8', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/49289.html" class="data-link">DPMD Jayawardene</a> (SL)</td>
@@ -1521,7 +1542,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>27</td>
   <td>38</td>
   <td>11</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd15', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd15', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/13399.html" class="data-link">GA Gooch</a> (ENG)</td>
@@ -1577,7 +1598,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>17</td>
   <td>56</td>
   <td>14</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd19', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd19', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/44936.html" class="data-link">AB de Villiers</a> (SA)</td>
@@ -1605,7 +1626,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>28</td>
   <td>27</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd21', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd21', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/5616.html" class="data-link">ML Hayden</a> (AUS)</td>
@@ -1619,17 +1640,17 @@ Statistics / Statsguru / Test matches / Batting records
   <td>30</td>
   <td>29</td>
   <td>14</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd22', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd22', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/303669.html" class="data-link">JE Root</a> (ENG)</td>
   <td class="left" nowrap="nowrap">2012-2021</td>
   <td>103</td>
-  <td>188</td>
+  <td>189</td>
   <td>14</td>
-  <td><b>8587</b></td>
+  <td><b>8617</b></td>
   <td class="padAst">254</td>
-  <td>49.35</td>
+  <td>49.24</td>
   <td>20</td>
   <td>49</td>
   <td>8</td>
@@ -1647,7 +1668,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>23</td>
   <td>32</td>
   <td>16</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd24', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd24', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/52812.html" class="data-link">IVA Richards</a> (WI)</td>
@@ -1661,7 +1682,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>24</td>
   <td>45</td>
   <td>10</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd25', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd25', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/20372.html" class="data-link">AJ Stewart</a> (ENG)</td>
@@ -1703,7 +1724,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>23</td>
   <td>35</td>
   <td>10</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd28', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd28', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/9187.html" class="data-link">G Boycott</a> (ENG)</td>
@@ -1759,7 +1780,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>16</td>
   <td>46</td>
   <td>20</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd32', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd32', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/9062.html" class="data-link">IR Bell</a> (ENG)</td>
@@ -1787,7 +1808,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>23</td>
   <td>30</td>
   <td>11</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd34', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd34', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/10846.html" class="data-link">MC Cowdrey</a> (ENG)</td>
@@ -1801,7 +1822,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>22</td>
   <td>38</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd35', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd35', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/51901.html" class="data-link">CG Greenidge</a> (WI)</td>
@@ -1815,7 +1836,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>19</td>
   <td>34</td>
   <td>11</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd36', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd36', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/267192.html" class="data-link">SPD Smith</a> (AUS)</td>
@@ -1843,7 +1864,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>24</td>
   <td>33</td>
   <td>11</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd38', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd38', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/7924.html" class="data-link">MA Taylor</a> (AUS)</td>
@@ -1857,7 +1878,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>19</td>
   <td>40</td>
   <td>5</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd39', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd39', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/52345.html" class="data-link">CH Lloyd</a> (WI)</td>
@@ -1871,7 +1892,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>19</td>
   <td>39</td>
   <td>4</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd40', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd40', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/253802.html" class="data-link">V Kohli</a> (INDIA)</td>
@@ -1899,7 +1920,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>18</td>
   <td>39</td>
   <td>10</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd42', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd42', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/4169.html" class="data-link">DC Boon</a> (AUS)</td>
@@ -1941,7 +1962,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>24</td>
   <td>30</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd45', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd45', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/45813.html" class="data-link">G Kirsten</a> (SA)</td>
@@ -1955,7 +1976,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>21</td>
   <td>34</td>
   <td>13</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd46', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd46', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/14022.html" class="data-link">WR Hammond</a> (ENG)</td>
@@ -1983,7 +2004,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>15</td>
   <td>37</td>
   <td>15</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd48', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd48', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/28779.html" class="data-link">SC Ganguly</a> (INDIA)</td>
@@ -1997,7 +2018,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>16</td>
   <td>35</td>
   <td>13</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd49', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd49', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/37000.html" class="data-link">SP Fleming</a> (NZ)</td>
@@ -2011,7 +2032,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>9</td>
   <td>46</td>
   <td>16</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd50', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd50', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/277906.html" class="data-link">KS Williamson</a> (NZ)</td>
@@ -2025,7 +2046,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>24</td>
   <td>32</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd51', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd51', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/4558.html" class="data-link">GS Chappell</a> (AUS)</td>
@@ -2039,7 +2060,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>24</td>
   <td>31</td>
   <td>12</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd52', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd52', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/20387.html" class="data-link">AJ Strauss</a> (ENG)</td>
@@ -2067,7 +2088,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>29</td>
   <td>13</td>
   <td>7</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd54', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd54', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/49209.html" class="data-link">ST Jayasuriya</a> (SL)</td>
@@ -2123,7 +2144,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>20</td>
   <td>35</td>
   <td>5</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd58', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd58', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/21537.html" class="data-link">GP Thorpe</a> (ENG)</td>
@@ -2207,7 +2228,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>19</td>
   <td>29</td>
   <td>12</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd64', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd64', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/52287.html" class="data-link">RB Kanhai</a> (WI)</td>
@@ -2235,7 +2256,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>22</td>
   <td>21</td>
   <td>5</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd66', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd66', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/49764.html" class="data-link">AD Mathews</a> (SL)</td>
@@ -2249,7 +2270,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>11</td>
   <td>36</td>
   <td>2</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd67', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd67', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/45224.html" class="data-link">HH Gibbs</a> (SA)</td>
@@ -2277,7 +2298,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>21</td>
   <td>24</td>
   <td>7</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd69', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd69', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/35712.html" class="data-link">GR Viswanath</a> (INDIA)</td>
@@ -2291,7 +2312,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>14</td>
   <td>35</td>
   <td>10</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd70', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd70', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/52810.html" class="data-link">RB Richardson</a> (WI)</td>
@@ -2305,7 +2326,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>16</td>
   <td>27</td>
   <td>8</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd71', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd71', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/52969.html" class="data-link">RR Sarwan</a> (WI)</td>
@@ -2333,7 +2354,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>14</td>
   <td>29</td>
   <td>12</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd73', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd73', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/10777.html" class="data-link">DCS Compton</a> (ENG)</td>
@@ -2347,7 +2368,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>17</td>
   <td>28</td>
   <td>10</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd74', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd74', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/42623.html" class="data-link">Saleem Malik</a> (PAK)</td>
@@ -2361,7 +2382,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>15</td>
   <td>29</td>
   <td>12</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd75', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd75', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/14325.html" class="data-link">N Hussain</a> (ENG)</td>
@@ -2445,7 +2466,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>16</td>
   <td>17</td>
   <td>22</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd81', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd81', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/48472.html" class="data-link">TM Dilshan</a> (SL)</td>
@@ -2487,7 +2508,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>17</td>
   <td>18</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd84', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd84', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/14225.html" class="data-link">JB Hobbs</a> (ENG)</td>
@@ -2501,7 +2522,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>15</td>
   <td>28</td>
   <td>4</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd85', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd85', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/8151.html" class="data-link">KD Walters</a> (AUS)</td>
@@ -2529,7 +2550,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>14</td>
   <td>26</td>
   <td>11</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd87', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd87', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/38757.html" class="data-link">JG Wright</a> (NZ)</td>
@@ -2543,7 +2564,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>12</td>
   <td>23</td>
   <td>7</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd88', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd88', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/7629.html" class="data-link">MJ Slater</a> (AUS)</td>
@@ -2557,7 +2578,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>14</td>
   <td>21</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd89', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd89', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/30028.html" class="data-link">N Kapil Dev</a> (INDIA)</td>
@@ -2571,7 +2592,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>8</td>
   <td>27</td>
   <td>16</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd90', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd90', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/6270.html" class="data-link">WM Lawry</a> (AUS)</td>
@@ -2613,7 +2634,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>14</td>
   <td>22</td>
   <td>14</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd93', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd93', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/12490.html" class="data-link">JH Edrich</a> (ENG)</td>
@@ -2627,7 +2648,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>12</td>
   <td>24</td>
   <td>6</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd94', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd94', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/50244.html" class="data-link">A Ranatunga</a> (SL)</td>
@@ -2655,7 +2676,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>12</td>
   <td>20</td>
   <td>10</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd96', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd96', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/13434.html" class="data-link">TW Graveney</a> (ENG)</td>
@@ -2669,7 +2690,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>11</td>
   <td>20</td>
   <td>8</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd97', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd97', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/28081.html" class="data-link">MS Dhoni</a> (INDIA)</td>
@@ -2697,7 +2718,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>10</td>
   <td>27</td>
   <td>8</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd99', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd99', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/55427.html" class="data-link">A Flower</a> (ZIM)</td>
@@ -2725,7 +2746,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>8</td>
   <td>31</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd101', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd101', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/36185.html" class="data-link">NJ Astle</a> (NZ)</td>
@@ -2739,7 +2760,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>11</td>
   <td>24</td>
   <td>11</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd102', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd102', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/316397.html" class="data-link">Asad Shafiq</a> (PAK)</td>
@@ -2767,7 +2788,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>10</td>
   <td>24</td>
   <td>12</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd104', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd104', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/16178.html" class="data-link">AJ Lamb</a> (ENG)</td>
@@ -2787,11 +2808,11 @@ Statistics / Statsguru / Test matches / Batting records
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/311158.html" class="data-link">BA Stokes</a> (ENG)</td>
   <td class="left" nowrap="nowrap">2013-2021</td>
   <td>71</td>
-  <td>129</td>
+  <td>130</td>
   <td>5</td>
-  <td><b>4629</b></td>
+  <td><b>4631</b></td>
   <td class="padAst">258</td>
-  <td>37.33</td>
+  <td>37.04</td>
   <td>10</td>
   <td>24</td>
   <td>13</td>
@@ -2823,7 +2844,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>16</td>
   <td>23</td>
   <td>2</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd108', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd108', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/44489.html" class="data-link">DJ Cullinan</a> (SA)</td>
@@ -2837,7 +2858,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>14</td>
   <td>20</td>
   <td>10</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd109', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd109', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/50744.html" class="data-link">HP Tillakaratne</a> (SL)</td>
@@ -2851,7 +2872,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>11</td>
   <td>20</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd110', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd110', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/16956.html" class="data-link">PBH May</a> (ENG)</td>
@@ -2865,7 +2886,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>13</td>
   <td>22</td>
   <td>8</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd111', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd111', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/56029.html" class="data-link">Mushfiqur Rahim</a> (BDESH)</td>
@@ -2879,7 +2900,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>7</td>
   <td>22</td>
   <td>11</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd112', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd112', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/38710.html" class="data-link">DL Vettori</a> (ICC/NZ)</td>
@@ -2907,7 +2928,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>9</td>
   <td>28</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd114', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd114', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/11886.html" class="data-link">ER Dexter</a> (ENG)</td>
@@ -2935,7 +2956,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>15</td>
   <td>19</td>
   <td>6</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd116', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd116', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/5724.html" class="data-link">KJ Hughes</a> (AUS)</td>
@@ -2949,7 +2970,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>9</td>
   <td>22</td>
   <td>10</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd117', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd117', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/13340.html" class="data-link">MW Gatting</a> (ENG)</td>
@@ -2977,7 +2998,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>13</td>
   <td>23</td>
   <td>7</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd119', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd119', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/52285.html" class="data-link">AI Kallicharran</a> (WI)</td>
@@ -2991,7 +3012,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>12</td>
   <td>21</td>
   <td>10</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd120', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd120', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/15917.html" class="data-link">APE Knott</a> (ENG)</td>
@@ -3005,7 +3026,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>5</td>
   <td>30</td>
   <td>8</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd121', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd121', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/26225.html" class="data-link">M Amarnath</a> (INDIA)</td>
@@ -3033,7 +3054,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>8</td>
   <td>26</td>
   <td>7</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd123', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd123', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/9327.html" class="data-link">MA Butcher</a> (ENG)</td>
@@ -3061,7 +3082,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>13</td>
   <td>16</td>
   <td>10</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd125', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd125', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/10772.html" class="data-link">PD Collingwood</a> (ENG)</td>
@@ -3095,15 +3116,15 @@ Statistics / Statsguru / Test matches / Batting records
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/297433.html" class="data-link">JM Bairstow</a> (ENG)</td>
   <td class="left" nowrap="nowrap">2012-2021</td>
   <td>74</td>
-  <td>130</td>
+  <td>131</td>
   <td>8</td>
   <td><b>4197</b></td>
   <td>167*</td>
-  <td>34.40</td>
+  <td>34.12</td>
   <td>6</td>
   <td>21</td>
-  <td>12</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd128', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td>13</td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd128', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/6128.html" class="data-link">SM Katich</a> (AUS)</td>
@@ -3159,7 +3180,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>10</td>
   <td>17</td>
   <td>7</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd132', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd132', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/18675.html" class="data-link">MJ Prior</a> (ENG)</td>
@@ -3173,7 +3194,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>7</td>
   <td>28</td>
   <td>13</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd133', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd133', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/300628.html" class="data-link">LD Chandimal</a> (SL)</td>
@@ -3201,7 +3222,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>11</td>
   <td>25</td>
   <td>8</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd135', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd135', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/237095.html" class="data-link">M Vijay</a> (INDIA)</td>
@@ -3215,7 +3236,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>12</td>
   <td>15</td>
   <td>8</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd136', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd136', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/41919.html" class="data-link">Majid Khan</a> (PAK)</td>
@@ -3229,7 +3250,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>8</td>
   <td>19</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd137', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd137', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/56143.html" class="data-link">Shakib Al Hasan</a> (BDESH)</td>
@@ -3243,7 +3264,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>5</td>
   <td>25</td>
   <td>4</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd138', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd138', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/388802.html" class="data-link">TWM Latham</a> (NZ)</td>
@@ -3257,7 +3278,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>11</td>
   <td>20</td>
   <td>8</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd139', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd139', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/52983.html" class="data-link">MN Samuels</a> (WI)</td>
@@ -3299,7 +3320,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>8</td>
   <td>20</td>
   <td>13</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd142', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd142', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/53238.html" class="data-link">FMM Worrell</a> (WI)</td>
@@ -3341,7 +3362,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>9</td>
   <td>19</td>
   <td>8</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd145', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd145', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/33975.html" class="data-link">RJ Shastri</a> (INDIA)</td>
@@ -3397,7 +3418,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>2</td>
   <td>16</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd149', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd149', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/38924.html" class="data-link">BJ Watling</a> (NZ)</td>
@@ -3411,7 +3432,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>8</td>
   <td>19</td>
   <td>10</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd150', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd150', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/8180.html" class="data-link">SR Watson</a> (AUS)</td>
@@ -3425,7 +3446,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>4</td>
   <td>24</td>
   <td>6</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd151', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd151', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/44485.html" class="data-link">WJ Cronje</a> (SA)</td>
@@ -3439,7 +3460,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>6</td>
   <td>23</td>
   <td>11</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd152', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd152', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/46788.html" class="data-link">AG Prince</a> (SA)</td>
@@ -3467,7 +3488,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>10</td>
   <td>12</td>
   <td>8</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd154', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd154', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/41318.html" class="data-link">Mushtaq Mohammad</a> (PAK)</td>
@@ -3481,7 +3502,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>10</td>
   <td>19</td>
   <td>4</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd155', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd155', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/6044.html" class="data-link">DM Jones</a> (AUS)</td>
@@ -3495,7 +3516,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>11</td>
   <td>14</td>
   <td>11</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd156', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd156', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/35577.html" class="data-link">PR Umrigar</a> (INDIA)</td>
@@ -3565,7 +3586,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>8</td>
   <td>17</td>
   <td>5</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd161', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd161', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/6644.html" class="data-link">AR Morris</a> (AUS)</td>
@@ -3635,7 +3656,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>6</td>
   <td>22</td>
   <td>5</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd166', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd166', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/5662.html" class="data-link">C Hill</a> (AUS)</td>
@@ -3649,7 +3670,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>7</td>
   <td>19</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd167', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd167', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/14187.html" class="data-link">GA Hick</a> (ENG)</td>
@@ -3663,7 +3684,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>6</td>
   <td>18</td>
   <td>11</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd168', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd168', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/8251.html" class="data-link">GM Wood</a> (AUS)</td>
@@ -3677,7 +3698,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>9</td>
   <td>13</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd169', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd169', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/51657.html" class="data-link">PJL Dujon</a> (WI)</td>
@@ -3705,7 +3726,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>5</td>
   <td>22</td>
   <td>7</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd171', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd171', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/40551.html" class="data-link">Ijaz Ahmed</a> (PAK)</td>
@@ -3719,7 +3740,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>12</td>
   <td>12</td>
   <td>7</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd172', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd172', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/22518.html" class="data-link">FE Woolley</a> (ENG)</td>
@@ -3775,7 +3796,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>5</td>
   <td>16</td>
   <td>9</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd176', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd176', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/52070.html" class="data-link">CC Hunte</a> (WI)</td>
@@ -3803,7 +3824,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>7</td>
   <td>15</td>
   <td>11</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd178', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd178', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/34028.html" class="data-link">NS Sidhu</a> (INDIA)</td>
@@ -3845,7 +3866,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>8</td>
   <td>13</td>
   <td>7</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd181', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd181', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/37712.html" class="data-link">CD McMillan</a> (NZ)</td>
@@ -3859,7 +3880,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>6</td>
   <td>19</td>
   <td>7</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd182', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd182', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/6554.html" class="data-link">CC McDonald</a> (AUS)</td>
@@ -3873,7 +3894,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>5</td>
   <td>17</td>
   <td>2</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd183', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd183', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/51239.html" class="data-link">BF Butcher</a> (WI)</td>
@@ -3943,7 +3964,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>3</td>
   <td>24</td>
   <td>7</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd188', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd188', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/629074.html" class="data-link">BKG Mendis</a> (SL)</td>
@@ -3971,7 +3992,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>6</td>
   <td>14</td>
   <td>7</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd190', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd190', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/379143.html" class="data-link">Q de Kock</a> (SA)</td>
@@ -3999,7 +4020,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>5</td>
   <td>16</td>
   <td>2</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd192', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd192', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/38622.html" class="data-link">GM Turner</a> (NZ)</td>
@@ -4041,7 +4062,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>9</td>
   <td>14</td>
   <td>3</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd195', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd195', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/6612.html" class="data-link">KR Miller</a> (AUS)</td>
@@ -4097,7 +4118,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>8</td>
   <td>14</td>
   <td>4</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd199', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd199', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
  <tr class="data1">
   <td class="left" nowrap="nowrap"><a href="/ci/content/player/51462.html" class="data-link">SL Campbell</a> (WI)</td>
@@ -4111,7 +4132,7 @@ Statistics / Statsguru / Test matches / Batting records
   <td>4</td>
   <td>18</td>
   <td>7</td>
-  <td class="padDD"><a href="javascript:void(0)" onmouseover="menuLayers.show('engine-dd200', event); window.status='investigate this query'; return true" onmouseout="menuLayers.hide()"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
+  <td class="padDD"><a href="javascript:void(0)" onmouseout="menuLayers.hide()" onmouseover="menuLayers.show('engine-dd200', event); window.status='investigate this query'; return true"><img src="http://i.imgci.com/espncricinfo/guruInvestigate.gif" width="11" height="11" border="0" alt="investigate this query"></a></td>
  </tr>
 </tbody>
 </table>
@@ -4122,7 +4143,7 @@ Statistics / Statsguru / Test matches / Batting records
    Page <b>1</b> of <b>4</b>
   </td>
   <td class="left" style="vertical-align:middle">
-   Showing <b>1</b> - <b>200</b> of <b>699</b>
+   Showing <b>1</b> - <b>200</b> of <b>701</b>
   </td>
   <td class="left" style="vertical-align:middle">
   <td class="left" style="vertical-align:middle">
@@ -4155,46 +4176,6 @@ Statistics / Statsguru / Test matches / Batting records
  </tr>
 </table>
 
-<div id="engine-dd-menu" class="engine-dd" style="z-index:99999;">
- <ul>
-  <li><b>Return to main menus</b></li>
-  <div class="engine-dd-sep"></div>
-  <li>&nbsp;</li>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;type=batting">Return to the query menu</a></li>
-  <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;type=batting">Return to cleared query menu</a></li>
-  <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats">Statsguru main menu</a></li>
-  <div class="engine-dd-sep"></div>
- </ul>
-</div>
-<div id="engine-dd-view" class="engine-dd" style="z-index:99999;">
- <ul>
-  <li><b>Change batting view</b></li>
-  <div class="engine-dd-sep"></div>
-  <li>&nbsp;</li>
-  <li><b>Overall figures</b></li>
-  <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=innings">Innings by innings list</a></li>
-  <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=match">Match totals</a></li>
-  <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=series">Series averages</a></li>
-  <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=ground">Ground averages</a></li>
-  <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=host">By host country</a></li>
-  <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=opposition">By opposition team</a></li>
-  <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=year">By year of match start</a></li>
-  <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=season">By season</a></li>
-  <div class="engine-dd-sep"></div>
- </ul>
-</div>
-<div id="engine-dd-remove" class="engine-dd" style="z-index:99999;">
-</div>
 <div id="engine-dd-class" class="engine-dd" style="z-index:99999;">
  <ul>
   <li><b>Change type of match</b></li>
@@ -4222,6 +4203,33 @@ Statistics / Statsguru / Test matches / Batting records
   <div class="engine-dd-sep"></div>
  </ul>
 </div>
+<div id="engine-dd-remove" class="engine-dd" style="z-index:99999;">
+</div>
+<div id="engine-dd-view" class="engine-dd" style="z-index:99999;">
+ <ul>
+  <li><b>Change batting view</b></li>
+  <div class="engine-dd-sep"></div>
+  <li>&nbsp;</li>
+  <li><b>Overall figures</b></li>
+  <div class="engine-dd-sep"></div>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=innings">Innings by innings list</a></li>
+  <div class="engine-dd-sep"></div>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=match">Match totals</a></li>
+  <div class="engine-dd-sep"></div>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=series">Series averages</a></li>
+  <div class="engine-dd-sep"></div>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=ground">Ground averages</a></li>
+  <div class="engine-dd-sep"></div>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=host">By host country</a></li>
+  <div class="engine-dd-sep"></div>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=opposition">By opposition team</a></li>
+  <div class="engine-dd-sep"></div>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=year">By year of match start</a></li>
+  <div class="engine-dd-sep"></div>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=season">By season</a></li>
+  <div class="engine-dd-sep"></div>
+ </ul>
+</div>
 <div id="engine-dd-type" class="engine-dd" style="z-index:99999;">
  <ul>
   <li><b>Change records type</b></li>
@@ -4242,6 +4250,19 @@ Statistics / Statsguru / Test matches / Batting records
   <li><a href="/ci/engine/stats?class=1;filter=advanced;qualmin1=30;qualval1=batting_average;size=200;template=results;type=official">Umpire and referee records</a></li>
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats?class=1;filter=advanced;qualmin1=30;qualval1=batting_average;size=200;template=results;type=aggregate">Aggregate/overall records</a></li>
+  <div class="engine-dd-sep"></div>
+ </ul>
+</div>
+<div id="engine-dd-menu" class="engine-dd" style="z-index:99999;">
+ <ul>
+  <li><b>Return to main menus</b></li>
+  <div class="engine-dd-sep"></div>
+  <li>&nbsp;</li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;type=batting">Return to the query menu</a></li>
+  <div class="engine-dd-sep"></div>
+  <li><a href="/ci/engine/stats/index.html?class=1;type=batting">Return to cleared query menu</a></li>
+  <div class="engine-dd-sep"></div>
+  <li><a href="/ci/engine/stats">Statsguru main menu</a></li>
   <div class="engine-dd-sep"></div>
  </ul>
 </div>
@@ -5135,15 +5156,15 @@ Statistics / Statsguru / Test matches / Batting records
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;opposition=1;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting">Query v England</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=8+Mar+2021;spanmin1=13+Dec+2012;spanval1=span;template=results;type=batting">Query for 13 Dec 2012 to 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=6+Mar+2021;spanmin1=13+Dec+2012;spanval1=span;template=results;type=batting">Query for 13 Dec 2012 to 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=13+Dec+2012;spanval1=span;template=results;type=batting">Query for up to 13 Dec 2012</a></li>
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=13+Dec+2012;spanval1=span;template=results;type=batting">Query for since 13 Dec 2012</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=8+Mar+2021;spanval1=span;template=results;type=batting">Query for up to 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=6+Mar+2021;spanval1=span;template=results;type=batting">Query for up to 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=8+Mar+2021;spanval1=span;template=results;type=batting">Query for since 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=6+Mar+2021;spanval1=span;template=results;type=batting">Query for since 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
   <li>&nbsp;</li>
   <li><a href="/ci/engine/player/303669.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=innings">View batting innings for player</a></li>
@@ -5829,15 +5850,15 @@ Statistics / Statsguru / Test matches / Batting records
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;opposition=6;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting">Query v India</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=8+Mar+2021;spanmin1=20+Jun+2011;spanval1=span;template=results;type=batting">Query for 20 Jun 2011 to 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=6+Mar+2021;spanmin1=20+Jun+2011;spanval1=span;template=results;type=batting">Query for 20 Jun 2011 to 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=20+Jun+2011;spanval1=span;template=results;type=batting">Query for up to 20 Jun 2011</a></li>
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=20+Jun+2011;spanval1=span;template=results;type=batting">Query for since 20 Jun 2011</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=8+Mar+2021;spanval1=span;template=results;type=batting">Query for up to 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=6+Mar+2021;spanval1=span;template=results;type=batting">Query for up to 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=8+Mar+2021;spanval1=span;template=results;type=batting">Query for since 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=6+Mar+2021;spanval1=span;template=results;type=batting">Query for since 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
   <li>&nbsp;</li>
   <li><a href="/ci/engine/player/253802.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=innings">View batting innings for player</a></li>
@@ -6667,15 +6688,15 @@ Statistics / Statsguru / Test matches / Batting records
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;opposition=6;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting">Query v India</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=8+Mar+2021;spanmin1=9+Oct+2010;spanval1=span;template=results;type=batting">Query for 9 Oct 2010 to 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=6+Mar+2021;spanmin1=9+Oct+2010;spanval1=span;template=results;type=batting">Query for 9 Oct 2010 to 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=9+Oct+2010;spanval1=span;template=results;type=batting">Query for up to 9 Oct 2010</a></li>
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=9+Oct+2010;spanval1=span;template=results;type=batting">Query for since 9 Oct 2010</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=8+Mar+2021;spanval1=span;template=results;type=batting">Query for up to 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=6+Mar+2021;spanval1=span;template=results;type=batting">Query for up to 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=8+Mar+2021;spanval1=span;template=results;type=batting">Query for since 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=6+Mar+2021;spanval1=span;template=results;type=batting">Query for since 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
   <li>&nbsp;</li>
   <li><a href="/ci/engine/player/32540.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=innings">View batting innings for player</a></li>
@@ -8308,15 +8329,15 @@ Statistics / Statsguru / Test matches / Batting records
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;opposition=1;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting">Query v England</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=8+Mar+2021;spanmin1=5+Dec+2013;spanval1=span;template=results;type=batting">Query for 5 Dec 2013 to 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=6+Mar+2021;spanmin1=5+Dec+2013;spanval1=span;template=results;type=batting">Query for 5 Dec 2013 to 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=5+Dec+2013;spanval1=span;template=results;type=batting">Query for up to 5 Dec 2013</a></li>
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=5+Dec+2013;spanval1=span;template=results;type=batting">Query for since 5 Dec 2013</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=8+Mar+2021;spanval1=span;template=results;type=batting">Query for up to 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=6+Mar+2021;spanval1=span;template=results;type=batting">Query for up to 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=8+Mar+2021;spanval1=span;template=results;type=batting">Query for since 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=6+Mar+2021;spanval1=span;template=results;type=batting">Query for since 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
   <li>&nbsp;</li>
   <li><a href="/ci/engine/player/311158.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=innings">View batting innings for player</a></li>
@@ -8347,15 +8368,15 @@ Statistics / Statsguru / Test matches / Batting records
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;opposition=6;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting">Query v India</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=8+Mar+2021;spanmin1=22+Mar+2013;spanval1=span;template=results;type=batting">Query for 22 Mar 2013 to 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=6+Mar+2021;spanmin1=22+Mar+2013;spanval1=span;template=results;type=batting">Query for 22 Mar 2013 to 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=22+Mar+2013;spanval1=span;template=results;type=batting">Query for up to 22 Mar 2013</a></li>
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=22+Mar+2013;spanval1=span;template=results;type=batting">Query for since 22 Mar 2013</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=8+Mar+2021;spanval1=span;template=results;type=batting">Query for up to 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=6+Mar+2021;spanval1=span;template=results;type=batting">Query for up to 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=8+Mar+2021;spanval1=span;template=results;type=batting">Query for since 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=6+Mar+2021;spanval1=span;template=results;type=batting">Query for since 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
   <li>&nbsp;</li>
   <li><a href="/ci/engine/player/277916.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=innings">View batting innings for player</a></li>
@@ -9130,15 +9151,15 @@ Statistics / Statsguru / Test matches / Batting records
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;opposition=1;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting">Query v England</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=8+Mar+2021;spanmin1=17+May+2012;spanval1=span;template=results;type=batting">Query for 17 May 2012 to 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=6+Mar+2021;spanmin1=17+May+2012;spanval1=span;template=results;type=batting">Query for 17 May 2012 to 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=17+May+2012;spanval1=span;template=results;type=batting">Query for up to 17 May 2012</a></li>
   <div class="engine-dd-sep"></div>
   <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=17+May+2012;spanval1=span;template=results;type=batting">Query for since 17 May 2012</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=8+Mar+2021;spanval1=span;template=results;type=batting">Query for up to 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmax1=6+Mar+2021;spanval1=span;template=results;type=batting">Query for up to 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
-  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=8+Mar+2021;spanval1=span;template=results;type=batting">Query for since 8 Mar 2021</a></li>
+  <li><a href="/ci/engine/stats/index.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;spanmin1=6+Mar+2021;spanval1=span;template=results;type=batting">Query for since 6 Mar 2021</a></li>
   <div class="engine-dd-sep"></div>
   <li>&nbsp;</li>
   <li><a href="/ci/engine/player/297433.html?class=1;filter=advanced;orderby=runs;qualmin1=30;qualval1=batting_average;size=200;template=results;type=batting;view=innings">View batting innings for player</a></li>
@@ -11825,21 +11846,20 @@ Statistics / Statsguru / Test matches / Batting records
  </tr>
  <tr class="data2">
   <td class="left">
-India v England at Ahmedabad, ICC World Test Championship 4th Test, Mar 4-8, 2021
-[<a href="/ci/engine/match/1243387.html">Test # 2414 - Live</a>]<br>
-&nbsp; &nbsp; &raquo; India 299/7 (96.6 ov, AR Patel 16*, Washington Sundar 60*, JM Anderson 3/40)<br>
+Afghanistan v Zimbabwe at Abu Dhabi, 2nd Test, Mar 10-14, 2021
+[<a href="/ci/engine/match/1252057.html">Test # 2415</a>]<br>
+  </td>
+ </tr>
+ <tr class="data2">
+  <td class="left">
+India v England at Ahmedabad, ICC World Test Championship 4th Test, Mar 4-6, 2021
+[<a href="/ci/engine/match/1243387.html">Test # 2414</a>]<br>
   </td>
  </tr>
  <tr class="data2">
   <td class="left">
 Afghanistan v Zimbabwe at Abu Dhabi, 1st Test, Mar 2-3, 2021
 [<a href="/ci/engine/match/1252056.html">Test # 2413</a>]<br>
-  </td>
- </tr>
- <tr class="data2">
-  <td class="left">
-India v England at Ahmedabad, ICC World Test Championship 3rd Test, Feb 24-25, 2021
-[<a href="/ci/engine/match/1243386.html">Test # 2412</a>]<br>
   </td>
  </tr>
 </table>
